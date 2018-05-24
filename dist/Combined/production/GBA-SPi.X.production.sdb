@@ -1,0 +1,2198 @@
+[p LITE_MODE AUTOSTATIC LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F25K80 ]
+[d frameptr 4065 ]
+"84 F:\Raspberry Pi\GBA-PI\GBA-SPi.X\mcc_generated_files/adc.c
+[e E17874 . `uc
+channel_CTMU 28
+channel_Temp_diode 29
+channel_Vdd_core 30
+channel_1_024V_bandgap 31
+volume_input 0
+]
+"693 F:\Raspberry Pi\GBA-PI\GBA-SPi.X\mcc_generated_files/i2c.h
+[e E18124 . `uc
+I2C_MESSAGE_COMPLETE 0
+I2C_MESSAGE_FAIL 1
+I2C_MESSAGE_PENDING 2
+I2C_STUCK_START 3
+I2C_MESSAGE_ADDRESS_NO_ACK 4
+I2C_DATA_NO_ACK 5
+I2C_LOST_STATE 6
+]
+[e E17875 . `uc
+I2C_MESSAGE_COMPLETE 0
+I2C_MESSAGE_FAIL 1
+I2C_MESSAGE_PENDING 2
+I2C_STUCK_START 3
+I2C_MESSAGE_ADDRESS_NO_ACK 4
+I2C_DATA_NO_ACK 5
+I2C_LOST_STATE 6
+]
+"186 F:\Raspberry Pi\GBA-PI\GBA-SPi.X\mcc_generated_files/i2c.c
+[e E17951 . `uc
+S_MASTER_IDLE 0
+S_MASTER_RESTART 1
+S_MASTER_SEND_ADDR 2
+S_MASTER_SEND_DATA 3
+S_MASTER_SEND_STOP 4
+S_MASTER_ACK_ADDR 5
+S_MASTER_RCV_DATA 6
+S_MASTER_RCV_STOP 7
+S_MASTER_ACK_RCV_DATA 8
+S_MASTER_NOACK_STOP 9
+S_MASTER_SEND_ADDR_10BIT_LSB 10
+S_MASTER_10BIT_RESTART 11
+]
+"693 F:\Raspberry Pi\GBA-PI\GBA-SPi.X\mcc_generated_files/i2c.h
+[e E18124 . `uc
+I2C_MESSAGE_COMPLETE 0
+I2C_MESSAGE_FAIL 1
+I2C_MESSAGE_PENDING 2
+I2C_STUCK_START 3
+I2C_MESSAGE_ADDRESS_NO_ACK 4
+I2C_DATA_NO_ACK 5
+I2C_LOST_STATE 6
+]
+[e E18124 . `uc
+I2C_MESSAGE_COMPLETE 0
+I2C_MESSAGE_FAIL 1
+I2C_MESSAGE_PENDING 2
+I2C_STUCK_START 3
+I2C_MESSAGE_ADDRESS_NO_ACK 4
+I2C_DATA_NO_ACK 5
+I2C_LOST_STATE 6
+]
+"174 F:\Raspberry Pi\GBA-PI\GBA-SPi.X\main.c
+[e E17910 . `uc
+channel_CTMU 28
+channel_Temp_diode 29
+channel_Vdd_core 30
+channel_1_024V_bandgap 31
+volume_input 0
+]
+"693 F:\Raspberry Pi\GBA-PI\GBA-SPi.X\mcc_generated_files/i2c.h
+[e E18124 . `uc
+I2C_MESSAGE_COMPLETE 0
+I2C_MESSAGE_FAIL 1
+I2C_MESSAGE_PENDING 2
+I2C_STUCK_START 3
+I2C_MESSAGE_ADDRESS_NO_ACK 4
+I2C_DATA_NO_ACK 5
+I2C_LOST_STATE 6
+]
+[e E18124 . `uc
+I2C_MESSAGE_COMPLETE 0
+I2C_MESSAGE_FAIL 1
+I2C_MESSAGE_PENDING 2
+I2C_STUCK_START 3
+I2C_MESSAGE_ADDRESS_NO_ACK 4
+I2C_DATA_NO_ACK 5
+I2C_LOST_STATE 6
+]
+[e E18124 . `uc
+I2C_MESSAGE_COMPLETE 0
+I2C_MESSAGE_FAIL 1
+I2C_MESSAGE_PENDING 2
+I2C_STUCK_START 3
+I2C_MESSAGE_ADDRESS_NO_ACK 4
+I2C_DATA_NO_ACK 5
+I2C_LOST_STATE 6
+]
+"16 F:\Raspberry Pi\GBA-PI\GBA-SPi.X\battery_control.c
+[v _Read_Battery_Percent Read_Battery_Percent `(uc  1 e 1 0 ]
+"27
+[v _Read_Battery_Voltage Read_Battery_Voltage `(uc  1 e 1 0 ]
+"38
+[v _Read_Battery_Register Read_Battery_Register `(uc  1 e 1 0 ]
+"49
+[v _Update_Battery_Icon Update_Battery_Icon `(v  1 e 1 0 ]
+"60
+[v _Update_Battery_Display Update_Battery_Display `(v  1 e 1 0 ]
+"70
+[v _Update_X_Offset Update_X_Offset `(v  1 e 1 0 ]
+"82
+[v _Update_Y_Offset Update_Y_Offset `(v  1 e 1 0 ]
+"12 F:\Raspberry Pi\GBA-PI\GBA-SPi.X\Debug.c
+[v _DebugMenu DebugMenu `(v  1 e 1 0 ]
+"79
+[v _LED_Control LED_Control `(v  1 e 1 0 ]
+"158
+[v _TAS2521_Communication TAS2521_Communication `(v  1 e 1 0 ]
+"221
+[v _MAX17048_Communication MAX17048_Communication `(v  1 e 1 0 ]
+"293
+[v _ADC_Debug ADC_Debug `(v  1 e 1 0 ]
+"342
+[v _Battery_Display Battery_Display `(v  1 e 1 0 ]
+"400
+[v _Screen_Brightness_Debug Screen_Brightness_Debug `(v  1 e 1 0 ]
+"438
+[v _Read_Commands Read_Commands `(uc  1 e 1 0 ]
+"479
+[v _Debug_Mode Debug_Mode `(v  1 e 1 0 ]
+"5 F:\Microchip\XC8\sources\common\atoi.c
+[v _atoi atoi `(i  1 e 2 0 ]
+"464 F:\Microchip\XC8\sources\common\doprnt.c
+[v _printf printf `(i  1 e 2 0 ]
+"62 F:\Microchip\XC8\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 F:\Microchip\XC8\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"54 F:\Microchip\XC8\sources\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+"62 F:\Microchip\XC8\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+"20 F:\Microchip\XC8\sources\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 3 0 ]
+"8 F:\Microchip\XC8\sources\common\isdigit.c
+[v _isdigit isdigit `(b  1 e 0 0 ]
+"8 F:\Microchip\XC8\sources\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"8 F:\Microchip\XC8\sources\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"10 F:\Microchip\XC8\sources\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 3 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 3 0 ]
+"11 F:\Microchip\XC8\sources\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 3 0 ]
+"8 F:\Microchip\XC8\sources\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 3 0 ]
+"4 F:\Microchip\XC8\sources\common\strchr.c
+[v _strchr strchr `(*.39uc  1 e 2 0 ]
+"33 F:\Microchip\XC8\sources\common\strcmp.c
+[v _strcmp strcmp `(i  1 e 2 0 ]
+"8 F:\Microchip\XC8\sources\common\strcpy.c
+[v _strcpy strcpy `(*.39uc  1 e 2 0 ]
+"4 F:\Microchip\XC8\sources\common\strcspn.c
+[v _strcspn strcspn `(ui  1 e 2 0 ]
+"4 F:\Microchip\XC8\sources\common\strspn.c
+[v _strspn strspn `(ui  1 e 2 0 ]
+"8 F:\Microchip\XC8\sources\common\strtok.c
+[v _strtok strtok `(*.39uc  1 e 2 0 ]
+"15 F:\Microchip\XC8\sources\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"15 F:\Microchip\XC8\sources\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"67 F:\Raspberry Pi\GBA-PI\GBA-SPi.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"232
+[v _LED_Check LED_Check `(v  1 e 1 0 ]
+"294
+[v _Battery_Check Battery_Check `(v  1 e 1 0 ]
+"338
+[v _Brightness_SW_Check Brightness_SW_Check `(v  1 e 1 0 ]
+"402
+[v _Button_Check Button_Check `(v  1 e 1 0 ]
+"439
+[v _Headphone_Check Headphone_Check `(v  1 e 1 0 ]
+"465
+[v _PWR_SW_Check PWR_SW_Check `(i  1 e 2 0 ]
+[v i2_PWR_SW_Check PWR_SW_Check `(i  1 e 2 0 ]
+"535
+[v _PI_UART_SYNC PI_UART_SYNC `(v  1 e 1 0 ]
+"58 F:\Raspberry Pi\GBA-PI\GBA-SPi.X\mcc_generated_files/adc.c
+[v _ADC_Initialize ADC_Initialize `(v  1 e 1 0 ]
+"83
+[v _ADC_StartConversion ADC_StartConversion `(v  1 e 1 0 ]
+"108
+[v _ADC_GetConversionResult_8bit ADC_GetConversionResult_8bit `(ui  1 e 2 0 ]
+"137
+[v _ADC_ISR ADC_ISR `(v  1 e 1 0 ]
+"63 F:\Raspberry Pi\GBA-PI\GBA-SPi.X\mcc_generated_files/epwm1.c
+[v _EPWM1_Initialize EPWM1_Initialize `(v  1 e 1 0 ]
+"91
+[v _EPWM1_LoadDutyValue EPWM1_LoadDutyValue `(v  1 e 1 0 ]
+"75 F:\Raspberry Pi\GBA-PI\GBA-SPi.X\mcc_generated_files/eusart1.c
+[v _EUSART1_Initialize EUSART1_Initialize `(v  1 e 1 0 ]
+"112
+[v _EUSART1_Read EUSART1_Read `(uc  1 e 1 0 ]
+"132
+[v _EUSART1_Write EUSART1_Write `(v  1 e 1 0 ]
+"155
+[v _getch getch `(uc  1 e 1 0 ]
+"163
+[v _putch putch `(v  1 e 1 0 ]
+"168
+[v _EUSART1_Transmit_ISR EUSART1_Transmit_ISR `(v  1 e 1 0 ]
+"187
+[v _EUSART1_Receive_ISR EUSART1_Receive_ISR `(v  1 e 1 0 ]
+"78 F:\Raspberry Pi\GBA-PI\GBA-SPi.X\mcc_generated_files/eusart2.c
+[v _EUSART2_Initialize EUSART2_Initialize `(v  1 e 1 0 ]
+"115
+[v _EUSART2_Read EUSART2_Read `(uc  1 e 1 0 ]
+"135
+[v _EUSART2_Write EUSART2_Write `(v  1 e 1 0 ]
+"158
+[v _EUSART2_Transmit_ISR EUSART2_Transmit_ISR `(v  1 e 1 0 ]
+"177
+[v _EUSART2_Receive_ISR EUSART2_Receive_ISR `(v  1 e 1 0 ]
+"199
+[v _EUSART2_Write_Array EUSART2_Write_Array `(v  1 e 1 0 ]
+"61 F:\Raspberry Pi\GBA-PI\GBA-SPi.X\mcc_generated_files/ext_int.c
+[v _INT1_CallBack INT1_CallBack `(v  1 e 1 0 ]
+"73
+[v _INT1_SetInterruptHandler INT1_SetInterruptHandler `(v  1 e 1 0 ]
+"80
+[v _INT1_DefaultInterruptHandler INT1_DefaultInterruptHandler `(v  1 e 1 0 ]
+"102
+[v _INT2_CallBack INT2_CallBack `(v  1 e 1 0 ]
+"114
+[v _INT2_SetInterruptHandler INT2_SetInterruptHandler `(v  1 e 1 0 ]
+"121
+[v _INT2_DefaultInterruptHandler INT2_DefaultInterruptHandler `(v  1 e 1 0 ]
+"143
+[v _INT0_CallBack INT0_CallBack `(v  1 e 1 0 ]
+"155
+[v _INT0_SetInterruptHandler INT0_SetInterruptHandler `(v  1 e 1 0 ]
+"162
+[v _INT0_DefaultInterruptHandler INT0_DefaultInterruptHandler `(v  1 e 1 0 ]
+"169
+[v _INT3_ISR INT3_ISR `(v  1 e 1 0 ]
+"190
+[v _INT3_CallBack INT3_CallBack `(v  1 e 1 0 ]
+"202
+[v _INT3_SetInterruptHandler INT3_SetInterruptHandler `(v  1 e 1 0 ]
+"209
+[v _INT3_DefaultInterruptHandler INT3_DefaultInterruptHandler `(v  1 e 1 0 ]
+"225
+[v _EXT_INT_Initialize EXT_INT_Initialize `(v  1 e 1 0 ]
+"198 F:\Raspberry Pi\GBA-PI\GBA-SPi.X\mcc_generated_files/i2c.c
+[v _I2C_Initialize I2C_Initialize `(v  1 e 1 0 ]
+"231
+[v _I2C_ISR I2C_ISR `(v  1 e 1 0 ]
+"561
+[v _I2C_FunctionComplete I2C_FunctionComplete `(v  1 e 1 0 ]
+"579
+[v _I2C_Stop I2C_Stop `(v  1 e 1 0 ]
+"596
+[v _I2C_MasterWrite I2C_MasterWrite `(v  1 e 1 0 ]
+"617
+[v _I2C_MasterRead I2C_MasterRead `(v  1 e 1 0 ]
+"639
+[v _I2C_MasterTRBInsert I2C_MasterTRBInsert `(v  1 e 1 0 ]
+"692
+[v _I2C_MasterReadTRBBuild I2C_MasterReadTRBBuild `(v  1 e 1 0 ]
+"705
+[v _I2C_MasterWriteTRBBuild I2C_MasterWriteTRBBuild `(v  1 e 1 0 ]
+"716
+[v _I2C_MasterQueueIsEmpty I2C_MasterQueueIsEmpty `(uc  1 e 1 0 ]
+"726
+[v _I2C_BusCollisionISR I2C_BusCollisionISR `(v  1 e 1 0 ]
+"734
+[v _I2C_Write I2C_Write `(v  1 e 1 0 ]
+"772
+[v _I2C_Read I2C_Read `(uc  1 e 1 0 ]
+"51 F:\Raspberry Pi\GBA-PI\GBA-SPi.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
+"57
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
+"111 F:\Raspberry Pi\GBA-PI\GBA-SPi.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"132
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"58 F:\Raspberry Pi\GBA-PI\GBA-SPi.X\mcc_generated_files/memory.c
+[v _FLASH_ReadByte FLASH_ReadByte `(uc  1 e 1 0 ]
+"93
+[v _FLASH_WriteBlock FLASH_WriteBlock `(c  1 e 1 0 ]
+"142
+[v _FLASH_EraseBlock FLASH_EraseBlock `(v  1 e 1 0 ]
+"52 F:\Raspberry Pi\GBA-PI\GBA-SPi.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"64 F:\Raspberry Pi\GBA-PI\GBA-SPi.X\mcc_generated_files/tmr1.c
+[v _TMR1_Initialize TMR1_Initialize `(v  1 e 1 0 ]
+"96
+[v _TMR1_StartTimer TMR1_StartTimer `(v  1 e 1 0 ]
+"163
+[v _TMR1_ISR TMR1_ISR `(v  1 e 1 0 ]
+"179
+[v _TMR1_SetInterruptHandler TMR1_SetInterruptHandler `(v  1 e 1 0 ]
+"185
+[v _TMR1_DefaultInterruptHandler TMR1_DefaultInterruptHandler `(v  1 e 1 0 ]
+"61 F:\Raspberry Pi\GBA-PI\GBA-SPi.X\mcc_generated_files/tmr2.c
+[v _TMR2_Initialize TMR2_Initialize `(v  1 e 1 0 ]
+"81
+[v _TMR2_StartTimer TMR2_StartTimer `(v  1 e 1 0 ]
+"65 F:\Raspberry Pi\GBA-PI\GBA-SPi.X\mcc_generated_files/tmr3.c
+[v _TMR3_Initialize TMR3_Initialize `(v  1 e 1 0 ]
+"97
+[v _TMR3_StartTimer TMR3_StartTimer `(v  1 e 1 0 ]
+"162
+[v _TMR3_ISR TMR3_ISR `(v  1 e 1 0 ]
+"178
+[v _TMR3_SetInterruptHandler TMR3_SetInterruptHandler `(v  1 e 1 0 ]
+"183
+[v _TMR3_DefaultInterruptHandler TMR3_DefaultInterruptHandler `(v  1 e 1 0 ]
+"12 F:\Raspberry Pi\GBA-PI\GBA-SPi.X\sound_control.c
+[v _TAS2521_Initialize TAS2521_Initialize `(v  1 e 1 0 ]
+"85
+[v _Volume_Update Volume_Update `(v  1 e 1 0 ]
+"110
+[v _Set_Volume Set_Volume `(v  1 e 1 0 ]
+"134
+[v _Build_Volume_Array Build_Volume_Array `(v  1 e 1 0 ]
+"204
+[v _abval abval `(uc  1 e 1 0 ]
+"210
+[v _Headphones Headphones `(v  1 e 1 0 ]
+"48 F:\Raspberry Pi\GBA-PI\GBA-SPi.X\Debug.h
+[v _commands commands `[8][16]uc  1 e 128 0 ]
+"49
+[v _command_count command_count `uc  1 e 1 0 ]
+"45 F:/Raspberry Pi/GBA-PI/GBA-SPi.X\global_variables.h
+[v _Screen_Control Screen_Control `uc  1 e 1 0 ]
+"46
+[v _Battery_Displayed Battery_Displayed `uc  1 e 1 0 ]
+"47
+[v _Shutdown_Counter Shutdown_Counter `uc  1 e 1 0 ]
+"48
+[v _Shutdown_Process Shutdown_Process `uc  1 e 1 0 ]
+"49
+[v _Battery_Timer Battery_Timer `VEuc  1 e 1 0 ]
+"50
+[v _Battery_Percent Battery_Percent `VEuc  1 e 1 0 ]
+"51
+[v _Blue_Blink_Timer Blue_Blink_Timer `VEuc  1 e 1 0 ]
+"52
+[v _Red_Blink_Timer Red_Blink_Timer `VEuc  1 e 1 0 ]
+"53
+[v _Brightness_Counter Brightness_Counter `VEuc  1 e 1 0 ]
+"54
+[v _Brightness_Count_Enable Brightness_Count_Enable `VEuc  1 e 1 0 ]
+"55
+[v _Startup_Count_Enable Startup_Count_Enable `VEuc  1 e 1 0 ]
+"56
+[v _Startup_Counter Startup_Counter `VEuc  1 e 1 0 ]
+"58
+[v _Pi_Syncd Pi_Syncd `uc  1 e 1 0 ]
+"59
+[v _Headphones_In Headphones_In `uc  1 e 1 0 ]
+"61
+[v _PWM_Value PWM_Value `ui  1 e 2 0 ]
+"29231 F:\Microchip\XC8\include\pic18f25k80.h
+[v _WPUB WPUB `VEuc  1 e 1 @3931 ]
+[s S1234 . 1 `uc 1 WPUB0 1 0 :1:0 
+`uc 1 WPUB1 1 0 :1:1 
+`uc 1 WPUB2 1 0 :1:2 
+`uc 1 WPUB3 1 0 :1:3 
+`uc 1 WPUB4 1 0 :1:4 
+`uc 1 WPUB5 1 0 :1:5 
+`uc 1 WPUB6 1 0 :1:6 
+`uc 1 WPUB7 1 0 :1:7 
+]
+"29248
+[u S1243 . 1 `S1234 1 . 1 0 ]
+[v _WPUBbits WPUBbits `VES1243  1 e 1 @3931 ]
+"29292
+[v _ANCON1 ANCON1 `VEuc  1 e 1 @3932 ]
+"29349
+[v _ANCON0 ANCON0 `VEuc  1 e 1 @3933 ]
+[s S2443 . 1 `uc 1 ANSEL0 1 0 :1:0 
+`uc 1 ANSEL1 1 0 :1:1 
+`uc 1 ANSEL2 1 0 :1:2 
+`uc 1 ANSEL3 1 0 :1:3 
+`uc 1 ANSEL4 1 0 :1:4 
+]
+"29382
+[s S2449 . 1 `uc 1 PCFG0 1 0 :1:0 
+]
+[s S2451 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 PCFG1 1 0 :1:1 
+]
+[s S2454 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PCFG2 1 0 :1:2 
+]
+[s S2457 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 PCFG3 1 0 :1:3 
+]
+[s S2460 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 PCFG4 1 0 :1:4 
+]
+[u S2463 . 1 `S2443 1 . 1 0 `S2449 1 . 1 0 `S2451 1 . 1 0 `S2454 1 . 1 0 `S2457 1 . 1 0 `S2460 1 . 1 0 ]
+[v _ANCON0bits ANCON0bits `VES2463  1 e 1 @3933 ]
+"31916
+[v _EEDATA EEDATA `VEuc  1 e 1 @3955 ]
+"31935
+[v _EEADR EEADR `VEuc  1 e 1 @3956 ]
+"31954
+[v _EEADRH EEADRH `VEuc  1 e 1 @3957 ]
+"32254
+[v _TXREG2 TXREG2 `VEuc  1 e 1 @3961 ]
+"32273
+[v _RCREG2 RCREG2 `VEuc  1 e 1 @3962 ]
+"32292
+[v _SPBRG2 SPBRG2 `VEuc  1 e 1 @3963 ]
+"32311
+[v _SPBRGH2 SPBRGH2 `VEuc  1 e 1 @3964 ]
+"32330
+[v _SPBRGH1 SPBRGH1 `VEuc  1 e 1 @3965 ]
+"32349
+[v _EECON2 EECON2 `VEuc  1 e 1 @3966 ]
+[s S1684 . 1 `uc 1 RD 1 0 :1:0 
+`uc 1 WR 1 0 :1:1 
+`uc 1 WREN 1 0 :1:2 
+`uc 1 WRERR 1 0 :1:3 
+`uc 1 FREE 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 CFGS 1 0 :1:6 
+`uc 1 EEPGD 1 0 :1:7 
+]
+"32389
+[s S1693 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 EEFS 1 0 :1:6 
+]
+[u S1696 . 1 `S1684 1 . 1 0 `S1693 1 . 1 0 ]
+[v _EECON1bits EECON1bits `VES1696  1 e 1 @3967 ]
+[s S2622 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 RA2 1 0 :1:2 
+`uc 1 RA3 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 RA5 1 0 :1:5 
+`uc 1 RA6 1 0 :1:6 
+`uc 1 RA7 1 0 :1:7 
+]
+"32461
+[s S2631 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 LVDIN 1 0 :1:5 
+]
+[s S2634 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 RJPU 1 0 :1:7 
+]
+[s S2637 . 1 `uc 1 ULPWUIN 1 0 :1:0 
+]
+[u S2639 . 1 `S2622 1 . 1 0 `S2631 1 . 1 0 `S2634 1 . 1 0 `S2637 1 . 1 0 ]
+[v _PORTAbits PORTAbits `VES2639  1 e 1 @3968 ]
+[s S2389 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"32536
+[s S2398 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 CCP2_PA2 1 0 :1:3 
+]
+[u S2401 . 1 `S2389 1 . 1 0 `S2398 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES2401  1 e 1 @3969 ]
+[s S2342 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+"32614
+[s S2351 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 CCP2 1 0 :1:1 
+]
+[s S2354 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PA1 1 0 :1:2 
+]
+[s S2357 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 PA2 1 0 :1:1 
+]
+[u S2360 . 1 `S2342 1 . 1 0 `S2351 1 . 1 0 `S2354 1 . 1 0 `S2357 1 . 1 0 ]
+[v _PORTCbits PORTCbits `VES2360  1 e 1 @3970 ]
+"32800
+[v _LATA LATA `VEuc  1 e 1 @3977 ]
+[s S2237 . 1 `uc 1 LATA0 1 0 :1:0 
+`uc 1 LATA1 1 0 :1:1 
+`uc 1 LATA2 1 0 :1:2 
+`uc 1 LATA3 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 LATA5 1 0 :1:5 
+`uc 1 LATA6 1 0 :1:6 
+`uc 1 LATA7 1 0 :1:7 
+]
+"32844
+[s S2246 . 1 `uc 1 LA0 1 0 :1:0 
+]
+"32844
+[s S2248 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 LA1 1 0 :1:1 
+]
+"32844
+[s S2251 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 LA2 1 0 :1:2 
+]
+"32844
+[s S2254 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 LA3 1 0 :1:3 
+]
+"32844
+[s S2257 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 LA5 1 0 :1:5 
+]
+"32844
+[s S2260 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 LA6 1 0 :1:6 
+]
+"32844
+[s S2263 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 LA7 1 0 :1:7 
+]
+"32844
+[u S2266 . 1 `S2237 1 . 1 0 `S2246 1 . 1 0 `S2248 1 . 1 0 `S2251 1 . 1 0 `S2254 1 . 1 0 `S2257 1 . 1 0 `S2260 1 . 1 0 `S2263 1 . 1 0 ]
+"32844
+"32844
+[v _LATAbits LATAbits `VES2266  1 e 1 @3977 ]
+"32918
+[v _LATB LATB `VEuc  1 e 1 @3978 ]
+"33050
+[v _LATC LATC `VEuc  1 e 1 @3979 ]
+[s S2547 . 1 `uc 1 LATC0 1 0 :1:0 
+`uc 1 LATC1 1 0 :1:1 
+`uc 1 LATC2 1 0 :1:2 
+`uc 1 LATC3 1 0 :1:3 
+`uc 1 LATC4 1 0 :1:4 
+`uc 1 LATC5 1 0 :1:5 
+`uc 1 LATC6 1 0 :1:6 
+`uc 1 LATC7 1 0 :1:7 
+]
+"33098
+[s S2556 . 1 `uc 1 LC0 1 0 :1:0 
+]
+"33098
+[s S2558 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 LC1 1 0 :1:1 
+]
+"33098
+[s S2561 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 LC2 1 0 :1:2 
+]
+"33098
+[s S2564 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 LC3 1 0 :1:3 
+]
+"33098
+[s S2567 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 LC4 1 0 :1:4 
+]
+"33098
+[s S2570 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 LC5 1 0 :1:5 
+]
+"33098
+[s S2573 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 LC6 1 0 :1:6 
+]
+"33098
+[s S2576 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 LC7 1 0 :1:7 
+]
+"33098
+[u S2579 . 1 `S2547 1 . 1 0 `S2556 1 . 1 0 `S2558 1 . 1 0 `S2561 1 . 1 0 `S2564 1 . 1 0 `S2567 1 . 1 0 `S2570 1 . 1 0 `S2573 1 . 1 0 `S2576 1 . 1 0 ]
+"33098
+"33098
+[v _LATCbits LATCbits `VES2579  1 e 1 @3979 ]
+"33274
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+[s S2491 . 1 `uc 1 TRISA0 1 0 :1:0 
+`uc 1 TRISA1 1 0 :1:1 
+`uc 1 TRISA2 1 0 :1:2 
+`uc 1 TRISA3 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 TRISA5 1 0 :1:5 
+`uc 1 TRISA6 1 0 :1:6 
+`uc 1 TRISA7 1 0 :1:7 
+]
+"33291
+[u S2500 . 1 `S2491 1 . 1 0 ]
+"33291
+"33291
+[v _TRISAbits TRISAbits `VES2500  1 e 1 @3986 ]
+"33330
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+[s S2674 . 1 `uc 1 TRISB0 1 0 :1:0 
+`uc 1 TRISB1 1 0 :1:1 
+`uc 1 TRISB2 1 0 :1:2 
+`uc 1 TRISB3 1 0 :1:3 
+`uc 1 TRISB4 1 0 :1:4 
+`uc 1 TRISB5 1 0 :1:5 
+`uc 1 TRISB6 1 0 :1:6 
+`uc 1 TRISB7 1 0 :1:7 
+]
+"33347
+[u S2683 . 1 `S2674 1 . 1 0 ]
+"33347
+"33347
+[v _TRISBbits TRISBbits `VES2683  1 e 1 @3987 ]
+"33391
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+[s S2317 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 TRISC3 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"33408
+[u S2326 . 1 `S2317 1 . 1 0 ]
+"33408
+"33408
+[v _TRISCbits TRISCbits `VES2326  1 e 1 @3988 ]
+[s S2171 . 1 `uc 1 C1TSEL 1 0 :1:0 
+`uc 1 C2TSEL 1 0 :1:1 
+`uc 1 C3TSEL 1 0 :1:2 
+`uc 1 C4TSEL 1 0 :1:3 
+`uc 1 C5TSEL 1 0 :1:4 
+]
+"33466
+[u S2177 . 1 `S2171 1 . 1 0 ]
+"33466
+"33466
+[v _CCPTMRSbits CCPTMRSbits `VES2177  1 e 1 @3993 ]
+"33495
+[v _REFOCON REFOCON `VEuc  1 e 1 @3994 ]
+"33559
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @3995 ]
+"33628
+[v _PSTR1CON PSTR1CON `VEuc  1 e 1 @3996 ]
+[s S2140 . 1 `uc 1 STRA 1 0 :1:0 
+`uc 1 STRB 1 0 :1:1 
+`uc 1 STRC 1 0 :1:2 
+`uc 1 STRD 1 0 :1:3 
+`uc 1 STRSYNC 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 CMPL 1 0 :2:6 
+]
+"33649
+[s S2148 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 CMPL0 1 0 :1:6 
+`uc 1 CMPL1 1 0 :1:7 
+]
+"33649
+[u S2152 . 1 `S2140 1 . 1 0 `S2148 1 . 1 0 ]
+"33649
+"33649
+[v _PSTR1CONbits PSTR1CONbits `VES2152  1 e 1 @3996 ]
+[s S26 . 1 `uc 1 TMR1IE 1 0 :1:0 
+`uc 1 TMR2IE 1 0 :1:1 
+`uc 1 TMR1GIE 1 0 :1:2 
+`uc 1 SSPIE 1 0 :1:3 
+`uc 1 TX1IE 1 0 :1:4 
+`uc 1 RC1IE 1 0 :1:5 
+`uc 1 ADIE 1 0 :1:6 
+]
+"33714
+[s S34 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TXIE 1 0 :1:4 
+`uc 1 RCIE 1 0 :1:5 
+]
+"33714
+[u S38 . 1 `S26 1 . 1 0 `S34 1 . 1 0 ]
+"33714
+"33714
+[v _PIE1bits PIE1bits `VES38  1 e 1 @3997 ]
+[s S130 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 TMR1GIF 1 0 :1:2 
+`uc 1 SSPIF 1 0 :1:3 
+`uc 1 TX1IF 1 0 :1:4 
+`uc 1 RC1IF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+]
+"33784
+[s S138 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+]
+"33784
+[u S142 . 1 `S130 1 . 1 0 `S138 1 . 1 0 ]
+"33784
+"33784
+[v _PIR1bits PIR1bits `VES142  1 e 1 @3998 ]
+[s S565 . 1 `uc 1 TMR3GIE 1 0 :1:0 
+`uc 1 TMR3IE 1 0 :1:1 
+`uc 1 HLVDIE 1 0 :1:2 
+`uc 1 BCLIE 1 0 :1:3 
+`uc 1 . 1 0 :3:4 
+`uc 1 OSCFIE 1 0 :1:7 
+]
+"33922
+[s S572 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 LVDIE 1 0 :1:2 
+]
+"33922
+[u S575 . 1 `S565 1 . 1 0 `S572 1 . 1 0 ]
+"33922
+"33922
+[v _PIE2bits PIE2bits `VES575  1 e 1 @4000 ]
+[s S589 . 1 `uc 1 TMR3GIF 1 0 :1:0 
+`uc 1 TMR3IF 1 0 :1:1 
+`uc 1 HLVDIF 1 0 :1:2 
+`uc 1 BCLIF 1 0 :1:3 
+`uc 1 . 1 0 :3:4 
+`uc 1 OSCFIF 1 0 :1:7 
+]
+"33975
+[s S596 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 LVDIF 1 0 :1:2 
+]
+"33975
+[u S599 . 1 `S589 1 . 1 0 `S596 1 . 1 0 ]
+"33975
+"33975
+[v _PIR2bits PIR2bits `VES599  1 e 1 @4001 ]
+[s S665 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 CCP1IE 1 0 :1:1 
+`uc 1 CCP2IE 1 0 :1:2 
+`uc 1 CTMUIE 1 0 :1:3 
+`uc 1 TX2IE 1 0 :1:4 
+`uc 1 RC2IE 1 0 :1:5 
+]
+"34101
+[s S672 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 RXB1IE 1 0 :1:1 
+]
+"34101
+[s S675 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 RXBNIE 1 0 :1:1 
+]
+"34101
+[s S678 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 TXB0IE 1 0 :1:2 
+]
+"34101
+[s S681 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 TXB1IE 1 0 :1:3 
+]
+"34101
+[s S684 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TXB2IE 1 0 :1:4 
+]
+"34101
+[s S687 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TXBNIE 1 0 :1:4 
+]
+"34101
+[u S690 . 1 `S665 1 . 1 0 `S672 1 . 1 0 `S675 1 . 1 0 `S678 1 . 1 0 `S681 1 . 1 0 `S684 1 . 1 0 `S687 1 . 1 0 ]
+"34101
+"34101
+[v _PIE3bits PIE3bits `VES690  1 e 1 @4003 ]
+[s S724 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 CCP1IF 1 0 :1:1 
+`uc 1 CCP2IF 1 0 :1:2 
+`uc 1 CTMUIF 1 0 :1:3 
+`uc 1 TX2IF 1 0 :1:4 
+`uc 1 RC2IF 1 0 :1:5 
+]
+"34183
+[s S731 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 RXBNIF 1 0 :1:1 
+]
+"34183
+[s S734 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TXBNIF 1 0 :1:4 
+]
+"34183
+[u S737 . 1 `S724 1 . 1 0 `S731 1 . 1 0 `S734 1 . 1 0 ]
+"34183
+"34183
+[v _PIR3bits PIR3bits `VES737  1 e 1 @4004 ]
+"34284
+[v _RCSTA2 RCSTA2 `VEuc  1 e 1 @4006 ]
+[s S1321 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADDEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+"34322
+[s S1834 . 1 `uc 1 RX9D2 1 0 :1:0 
+`uc 1 OERR2 1 0 :1:1 
+`uc 1 FERR2 1 0 :1:2 
+`uc 1 ADDEN2 1 0 :1:3 
+`uc 1 CREN2 1 0 :1:4 
+`uc 1 SREN2 1 0 :1:5 
+`uc 1 RX92 1 0 :1:6 
+`uc 1 SPEN2 1 0 :1:7 
+]
+"34322
+[s S1843 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RC8_92 1 0 :1:6 
+]
+"34322
+[s S1846 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RC92 1 0 :1:6 
+]
+"34322
+[s S1849 . 1 `uc 1 RCD82 1 0 :1:0 
+]
+"34322
+[u S1851 . 1 `S1321 1 . 1 0 `S1834 1 . 1 0 `S1843 1 . 1 0 `S1846 1 . 1 0 `S1849 1 . 1 0 ]
+"34322
+"34322
+[v _RCSTA2bits RCSTA2bits `VES1851  1 e 1 @4006 ]
+"34421
+[v _BAUDCON1 BAUDCON1 `VEuc  1 e 1 @4007 ]
+"34690
+[v _T1GCON T1GCON `VEuc  1 e 1 @4010 ]
+[s S290 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 T1GGO_NOT_T1DONE 1 0 :1:3 
+]
+"34724
+[s S293 . 1 `uc 1 T1GSS 1 0 :2:0 
+`uc 1 T1GVAL 1 0 :1:2 
+`uc 1 T1GGO_nT1DONE 1 0 :1:3 
+`uc 1 T1GSPM 1 0 :1:4 
+`uc 1 T1GTM 1 0 :1:5 
+`uc 1 T1GPOL 1 0 :1:6 
+`uc 1 TMR1GE 1 0 :1:7 
+]
+"34724
+[s S301 . 1 `uc 1 T1GSS0 1 0 :1:0 
+`uc 1 T1GSS1 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 T1GGO 1 0 :1:3 
+]
+"34724
+[s S306 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 NOT_T1DONE 1 0 :1:3 
+]
+"34724
+[s S309 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 nT1DONE 1 0 :1:3 
+]
+"34724
+[u S312 . 1 `S290 1 . 1 0 `S293 1 . 1 0 `S301 1 . 1 0 `S306 1 . 1 0 `S309 1 . 1 0 ]
+"34724
+"34724
+[v _T1GCONbits T1GCONbits `VES312  1 e 1 @4010 ]
+"34793
+[v _RCSTA1 RCSTA1 `VEuc  1 e 1 @4011 ]
+"34848
+[s S1330 . 1 `uc 1 RCD8 1 0 :1:0 
+`uc 1 . 1 0 :2:1 
+`uc 1 ADEN 1 0 :1:3 
+`uc 1 . 1 0 :2:4 
+`uc 1 RC9 1 0 :1:6 
+]
+"34848
+[s S1336 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 NOT_RC8 1 0 :1:6 
+]
+"34848
+[s S1339 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 nRC8 1 0 :1:6 
+]
+"34848
+[s S1342 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RC8_9 1 0 :1:6 
+]
+"34848
+[s S1345 . 1 `uc 1 RX9D1 1 0 :1:0 
+`uc 1 OERR1 1 0 :1:1 
+`uc 1 FERR1 1 0 :1:2 
+`uc 1 ADDEN1 1 0 :1:3 
+`uc 1 CREN1 1 0 :1:4 
+`uc 1 SREN1 1 0 :1:5 
+`uc 1 RX91 1 0 :1:6 
+`uc 1 SPEN1 1 0 :1:7 
+]
+"34848
+[s S1354 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 SRENA 1 0 :1:5 
+]
+"34848
+[u S1357 . 1 `S1321 1 . 1 0 `S1330 1 . 1 0 `S1336 1 . 1 0 `S1339 1 . 1 0 `S1342 1 . 1 0 `S1345 1 . 1 0 `S1354 1 . 1 0 ]
+"34848
+"34848
+[v _RCSTA1bits RCSTA1bits `VES1357  1 e 1 @4011 ]
+"35130
+[v _TXSTA1 TXSTA1 `VEuc  1 e 1 @4012 ]
+"35417
+[v _TXREG1 TXREG1 `VEuc  1 e 1 @4013 ]
+"35454
+[v _RCREG1 RCREG1 `VEuc  1 e 1 @4014 ]
+"35491
+[v _SPBRG1 SPBRG1 `VEuc  1 e 1 @4015 ]
+"35528
+[v _T3GCON T3GCON `VEuc  1 e 1 @4016 ]
+[s S1537 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 T3GGO_NOT_T3DONE 1 0 :1:3 
+]
+"35562
+[s S1540 . 1 `uc 1 T3GSS 1 0 :2:0 
+`uc 1 T3GVAL 1 0 :1:2 
+`uc 1 T3GGO_nT3DONE 1 0 :1:3 
+`uc 1 T3GSPM 1 0 :1:4 
+`uc 1 T3GTM 1 0 :1:5 
+`uc 1 T3GPOL 1 0 :1:6 
+`uc 1 TMR3GE 1 0 :1:7 
+]
+"35562
+[s S1548 . 1 `uc 1 T3GSS0 1 0 :1:0 
+`uc 1 T3GSS1 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 T3GGO 1 0 :1:3 
+]
+"35562
+[s S1553 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 NOT_T3DONE 1 0 :1:3 
+]
+"35562
+[s S1556 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 nT3DONE 1 0 :1:3 
+]
+"35562
+[u S1559 . 1 `S1537 1 . 1 0 `S1540 1 . 1 0 `S1548 1 . 1 0 `S1553 1 . 1 0 `S1556 1 . 1 0 ]
+"35562
+"35562
+[v _T3GCONbits T3GCONbits `VES1559  1 e 1 @4016 ]
+"35631
+[v _T3CON T3CON `VEuc  1 e 1 @4017 ]
+[s S1479 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_T3SYNC 1 0 :1:2 
+]
+"35669
+[s S1482 . 1 `uc 1 TMR3ON 1 0 :1:0 
+`uc 1 RD16 1 0 :1:1 
+`uc 1 nT3SYNC 1 0 :1:2 
+`uc 1 SOSCEN 1 0 :1:3 
+`uc 1 T3CKPS 1 0 :2:4 
+`uc 1 TMR3CS 1 0 :2:6 
+]
+"35669
+[s S1489 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 T3CKPS0 1 0 :1:4 
+`uc 1 T3CKPS1 1 0 :1:5 
+`uc 1 TMR3CS0 1 0 :1:6 
+`uc 1 TMR3CS1 1 0 :1:7 
+]
+"35669
+[s S1495 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 RD163 1 0 :1:7 
+]
+"35669
+[s S1498 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 SOSCEN3 1 0 :1:3 
+]
+"35669
+[s S1501 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 T3RD16 1 0 :1:7 
+]
+"35669
+[u S1504 . 1 `S1479 1 . 1 0 `S1482 1 . 1 0 `S1489 1 . 1 0 `S1495 1 . 1 0 `S1498 1 . 1 0 `S1501 1 . 1 0 ]
+"35669
+"35669
+[v _T3CONbits T3CONbits `VES1504  1 e 1 @4017 ]
+"35749
+[v _TMR3L TMR3L `VEuc  1 e 1 @4018 ]
+"35768
+[v _TMR3H TMR3H `VEuc  1 e 1 @4019 ]
+[s S1720 . 1 `uc 1 CCP3IF 1 0 :1:0 
+`uc 1 CCP4IF 1 0 :1:1 
+`uc 1 CCP5IF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 CMP1IF 1 0 :1:4 
+`uc 1 CMP2IF 1 0 :1:5 
+`uc 1 EEIF 1 0 :1:6 
+`uc 1 TMR4IF 1 0 :1:7 
+]
+"36034
+[u S1729 . 1 `S1720 1 . 1 0 ]
+"36034
+"36034
+[v _PIR4bits PIR4bits `VES1729  1 e 1 @4023 ]
+"36137
+[v _BAUDCON2 BAUDCON2 `VEuc  1 e 1 @4025 ]
+"36291
+[v _TXSTA2 TXSTA2 `VEuc  1 e 1 @4026 ]
+"36419
+[v _CCP1CON CCP1CON `VEuc  1 e 1 @4027 ]
+"36616
+[v _CCPR1L CCPR1L `VEuc  1 e 1 @4028 ]
+"36635
+[v _CCPR1H CCPR1H `VEuc  1 e 1 @4029 ]
+"36654
+[v _ECCP1DEL ECCP1DEL `VEuc  1 e 1 @4030 ]
+"36791
+[v _ECCP1AS ECCP1AS `VEuc  1 e 1 @4031 ]
+"36872
+[v _ADCON2 ADCON2 `VEuc  1 e 1 @4032 ]
+"36942
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @4033 ]
+"37051
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @4034 ]
+[s S60 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO_NOT_DONE 1 0 :1:1 
+]
+"37096
+[s S63 . 1 `uc 1 ADON 1 0 :1:0 
+`uc 1 GO_nDONE 1 0 :1:1 
+`uc 1 CHS 1 0 :5:2 
+]
+"37096
+[s S67 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 DONE 1 0 :1:1 
+`uc 1 CHS0 1 0 :1:2 
+`uc 1 CHS1 1 0 :1:3 
+`uc 1 CHS2 1 0 :1:4 
+`uc 1 CHS3 1 0 :1:5 
+`uc 1 CHS4 1 0 :1:6 
+]
+"37096
+[s S75 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO 1 0 :1:1 
+]
+"37096
+[s S78 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 NOT_DONE 1 0 :1:1 
+]
+"37096
+[s S81 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 nDONE 1 0 :1:1 
+]
+"37096
+[s S84 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GODONE 1 0 :1:1 
+]
+"37096
+[s S87 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO_DONE 1 0 :1:1 
+]
+"37096
+[u S90 . 1 `S60 1 . 1 0 `S63 1 . 1 0 `S67 1 . 1 0 `S75 1 . 1 0 `S78 1 . 1 0 `S81 1 . 1 0 `S84 1 . 1 0 `S87 1 . 1 0 ]
+"37096
+"37096
+[v _ADCON0bits ADCON0bits `VES90  1 e 1 @4034 ]
+"37181
+[v _ADRESL ADRESL `VEuc  1 e 1 @4035 ]
+"37200
+[v _ADRESH ADRESH `VEuc  1 e 1 @4036 ]
+[s S953 . 1 `uc 1 SEN 1 0 :1:0 
+`uc 1 RSEN 1 0 :1:1 
+`uc 1 PEN 1 0 :1:2 
+`uc 1 RCEN 1 0 :1:3 
+`uc 1 ACKEN 1 0 :1:4 
+`uc 1 ACKDT 1 0 :1:5 
+`uc 1 ACKSTAT 1 0 :1:6 
+`uc 1 GCEN 1 0 :1:7 
+]
+"37244
+[s S962 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 ADMSK1 1 0 :1:1 
+`uc 1 ADMSK2 1 0 :1:2 
+`uc 1 ADMSK3 1 0 :1:3 
+`uc 1 ADMSK4 1 0 :1:4 
+`uc 1 ADMSK5 1 0 :1:5 
+]
+"37244
+[u S969 . 1 `S953 1 . 1 0 `S962 1 . 1 0 ]
+"37244
+"37244
+[v _SSPCON2bits SSPCON2bits `VES969  1 e 1 @4037 ]
+"37313
+[v _SSPCON1 SSPCON1 `VEuc  1 e 1 @4038 ]
+[s S927 . 1 `uc 1 SSPM 1 0 :4:0 
+`uc 1 CKP 1 0 :1:4 
+`uc 1 SSPEN 1 0 :1:5 
+`uc 1 SSPOV 1 0 :1:6 
+`uc 1 WCOL 1 0 :1:7 
+]
+"37333
+[s S933 . 1 `uc 1 SSPM0 1 0 :1:0 
+`uc 1 SSPM1 1 0 :1:1 
+`uc 1 SSPM2 1 0 :1:2 
+`uc 1 SSPM3 1 0 :1:3 
+]
+"37333
+[u S938 . 1 `S927 1 . 1 0 `S933 1 . 1 0 ]
+"37333
+"37333
+[v _SSPCON1bits SSPCON1bits `VES938  1 e 1 @4038 ]
+"37382
+[v _SSPSTAT SSPSTAT `VEuc  1 e 1 @4039 ]
+"37624
+[v _SSPADD SSPADD `VEuc  1 e 1 @4040 ]
+"37693
+[v _SSPBUF SSPBUF `VEuc  1 e 1 @4041 ]
+"37712
+[v _T2CON T2CON `VEuc  1 e 1 @4042 ]
+[s S2095 . 1 `uc 1 T2CKPS 1 0 :2:0 
+`uc 1 TMR2ON 1 0 :1:2 
+`uc 1 T2OUTPS 1 0 :4:3 
+]
+"37733
+[s S2099 . 1 `uc 1 T2CKPS0 1 0 :1:0 
+`uc 1 T2CKPS1 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 T2OUTPS0 1 0 :1:3 
+`uc 1 T2OUTPS1 1 0 :1:4 
+`uc 1 T2OUTPS2 1 0 :1:5 
+`uc 1 T2OUTPS3 1 0 :1:6 
+]
+"37733
+[u S2107 . 1 `S2095 1 . 1 0 `S2099 1 . 1 0 ]
+"37733
+"37733
+[v _T2CONbits T2CONbits `VES2107  1 e 1 @4042 ]
+"37782
+[v _PR2 PR2 `VEuc  1 e 1 @4043 ]
+"37907
+[v _TMR2 TMR2 `VEuc  1 e 1 @4044 ]
+"37926
+[v _T1CON T1CON `VEuc  1 e 1 @4045 ]
+[s S239 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_T1SYNC 1 0 :1:2 
+]
+"37960
+[s S242 . 1 `uc 1 TMR1ON 1 0 :1:0 
+`uc 1 RD16 1 0 :1:1 
+`uc 1 nT1SYNC 1 0 :1:2 
+`uc 1 SOSCEN 1 0 :1:3 
+`uc 1 T1CKPS 1 0 :2:4 
+`uc 1 TMR1CS 1 0 :2:6 
+]
+"37960
+[s S249 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 T1CKPS0 1 0 :1:4 
+`uc 1 T1CKPS1 1 0 :1:5 
+`uc 1 TMR1CS0 1 0 :1:6 
+`uc 1 TMR1CS1 1 0 :1:7 
+]
+"37960
+[s S255 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 T1OSCEN 1 0 :1:3 
+]
+"37960
+[s S258 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 T1RD16 1 0 :1:7 
+]
+"37960
+[u S261 . 1 `S239 1 . 1 0 `S242 1 . 1 0 `S249 1 . 1 0 `S255 1 . 1 0 `S258 1 . 1 0 ]
+"37960
+"37960
+[v _T1CONbits T1CONbits `VES261  1 e 1 @4045 ]
+"38035
+[v _TMR1L TMR1L `VEuc  1 e 1 @4046 ]
+"38054
+[v _TMR1H TMR1H `VEuc  1 e 1 @4047 ]
+[s S407 . 1 `uc 1 NOT_BOR 1 0 :1:0 
+]
+"38121
+[s S409 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 NOT_POR 1 0 :1:1 
+]
+"38121
+[s S412 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_PD 1 0 :1:2 
+]
+"38121
+[s S415 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 NOT_TO 1 0 :1:3 
+]
+"38121
+[s S418 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 NOT_RI 1 0 :1:4 
+]
+"38121
+[s S421 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 NOT_CM 1 0 :1:5 
+]
+"38121
+[s S424 . 1 `uc 1 nBOR 1 0 :1:0 
+`uc 1 nPOR 1 0 :1:1 
+`uc 1 nPD 1 0 :1:2 
+`uc 1 nTO 1 0 :1:3 
+`uc 1 nRI 1 0 :1:4 
+`uc 1 nCM 1 0 :1:5 
+`uc 1 SBOREN 1 0 :1:6 
+`uc 1 IPEN 1 0 :1:7 
+]
+"38121
+[s S433 . 1 `uc 1 BOR 1 0 :1:0 
+`uc 1 POR 1 0 :1:1 
+`uc 1 PD 1 0 :1:2 
+`uc 1 TO 1 0 :1:3 
+`uc 1 RI 1 0 :1:4 
+`uc 1 CM 1 0 :1:5 
+]
+"38121
+[u S440 . 1 `S407 1 . 1 0 `S409 1 . 1 0 `S412 1 . 1 0 `S415 1 . 1 0 `S418 1 . 1 0 `S421 1 . 1 0 `S424 1 . 1 0 `S433 1 . 1 0 ]
+"38121
+"38121
+[v _RCONbits RCONbits `VES440  1 e 1 @4048 ]
+"38284
+[v _OSCCON2 OSCCON2 `VEuc  1 e 1 @4050 ]
+"38355
+[v _OSCCON OSCCON `VEuc  1 e 1 @4051 ]
+[s S621 . 1 `uc 1 INT1IF 1 0 :1:0 
+`uc 1 INT2IF 1 0 :1:1 
+`uc 1 INT3IF 1 0 :1:2 
+`uc 1 INT1IE 1 0 :1:3 
+`uc 1 INT2IE 1 0 :1:4 
+`uc 1 INT3IE 1 0 :1:5 
+`uc 1 INT1IP 1 0 :1:6 
+`uc 1 INT2IP 1 0 :1:7 
+]
+"39104
+[s S630 . 1 `uc 1 INT1F 1 0 :1:0 
+`uc 1 INT2F 1 0 :1:1 
+`uc 1 INT3F 1 0 :1:2 
+`uc 1 INT1E 1 0 :1:3 
+`uc 1 INT2E 1 0 :1:4 
+`uc 1 INT3E 1 0 :1:5 
+`uc 1 INT1P 1 0 :1:6 
+`uc 1 INT2P 1 0 :1:7 
+]
+"39104
+[u S639 . 1 `S621 1 . 1 0 `S630 1 . 1 0 ]
+"39104
+"39104
+[v _INTCON3bits INTCON3bits `VES639  1 e 1 @4080 ]
+[s S1146 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 NOT_RBPU 1 0 :1:7 
+]
+"39216
+[s S1149 . 1 `uc 1 RBIP 1 0 :1:0 
+`uc 1 INT3IP 1 0 :1:1 
+`uc 1 TMR0IP 1 0 :1:2 
+`uc 1 INTEDG3 1 0 :1:3 
+`uc 1 INTEDG2 1 0 :1:4 
+`uc 1 INTEDG1 1 0 :1:5 
+`uc 1 INTEDG0 1 0 :1:6 
+`uc 1 nRBPU 1 0 :1:7 
+]
+"39216
+[s S1158 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 INT3P 1 0 :1:1 
+`uc 1 T0IP 1 0 :1:2 
+`uc 1 . 1 0 :4:3 
+`uc 1 RBPU 1 0 :1:7 
+]
+"39216
+[u S1164 . 1 `S1146 1 . 1 0 `S1149 1 . 1 0 `S1158 1 . 1 0 ]
+"39216
+"39216
+[v _INTCON2bits INTCON2bits `VES1164  1 e 1 @4081 ]
+[s S483 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE_GIEL 1 0 :1:6 
+`uc 1 GIE_GIEH 1 0 :1:7 
+]
+"39317
+[s S492 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 INT0F 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INT0E 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"39317
+[s S501 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+"39317
+[u S505 . 1 `S483 1 . 1 0 `S492 1 . 1 0 `S501 1 . 1 0 ]
+"39317
+"39317
+[v _INTCONbits INTCONbits `VES505  1 e 1 @4082 ]
+"39555
+[v _TABLAT TABLAT `VEuc  1 e 1 @4085 ]
+"39582
+[v _TBLPTRL TBLPTRL `VEuc  1 e 1 @4086 ]
+"39601
+[v _TBLPTRH TBLPTRH `VEuc  1 e 1 @4087 ]
+"39620
+[v _TBLPTRU TBLPTRU `VEuc  1 e 1 @4088 ]
+"354 F:\Microchip\XC8\sources\common\doprnt.c
+[v _dpowers dpowers `C[5]ui  1 s 10 dpowers ]
+"362
+[v _hexpowers hexpowers `C[4]ui  1 s 8 hexpowers ]
+"62 F:\Raspberry Pi\GBA-PI\GBA-SPi.X\main.c
+[v _counter counter `ui  1 e 2 0 ]
+"273 F:\Raspberry Pi\GBA-PI\GBA-SPi.X\mcc_generated_files/adc.h
+[v _ADC_Data_Ready ADC_Data_Ready `VEuc  1 e 1 0 ]
+"274
+[v _ADC_Data ADC_Data `uc  1 e 1 0 ]
+"275
+[v _Previous_ADC_Data Previous_ADC_Data `uc  1 e 1 0 ]
+"61 F:\Raspberry Pi\GBA-PI\GBA-SPi.X\mcc_generated_files/eusart1.c
+[v _eusart1TxHead eusart1TxHead `VEuc  1 e 1 0 ]
+"62
+[v _eusart1TxTail eusart1TxTail `VEuc  1 e 1 0 ]
+"63
+[v _eusart1TxBuffer eusart1TxBuffer `VE[8]uc  1 e 8 0 ]
+"64
+[v _eusart1TxBufferRemaining eusart1TxBufferRemaining `VEuc  1 e 1 0 ]
+"66
+[v _eusart1RxHead eusart1RxHead `VEuc  1 e 1 0 ]
+"67
+[v _eusart1RxTail eusart1RxTail `VEuc  1 e 1 0 ]
+"68
+[v _eusart1RxBuffer eusart1RxBuffer `VE[8]uc  1 e 8 0 ]
+"69
+[v _eusart1RxCount eusart1RxCount `VEuc  1 e 1 0 ]
+"64 F:\Raspberry Pi\GBA-PI\GBA-SPi.X\mcc_generated_files/eusart2.c
+[v _eusart2TxHead eusart2TxHead `VEuc  1 e 1 0 ]
+"65
+[v _eusart2TxTail eusart2TxTail `VEuc  1 e 1 0 ]
+"66
+[v _eusart2TxBuffer eusart2TxBuffer `VE[8]uc  1 e 8 0 ]
+"67
+[v _eusart2TxBufferRemaining eusart2TxBufferRemaining `VEuc  1 e 1 0 ]
+"69
+[v _eusart2RxHead eusart2RxHead `VEuc  1 e 1 0 ]
+"70
+[v _eusart2RxTail eusart2RxTail `VEuc  1 e 1 0 ]
+"71
+[v _eusart2RxBuffer eusart2RxBuffer `VE[8]uc  1 e 8 0 ]
+"72
+[v _eusart2RxCount eusart2RxCount `VEuc  1 e 1 0 ]
+"38 F:\Raspberry Pi\GBA-PI\GBA-SPi.X\mcc_generated_files/ext_int.c
+[v _INT1_InterruptHandler INT1_InterruptHandler `*.37(v  1 e 2 0 ]
+"39
+[v _INT2_InterruptHandler INT2_InterruptHandler `*.37(v  1 e 2 0 ]
+"40
+[v _INT0_InterruptHandler INT0_InterruptHandler `*.37(v  1 e 2 0 ]
+"41
+[v _INT3_InterruptHandler INT3_InterruptHandler `*.37(v  1 e 2 0 ]
+[s S858 . 5 `ui 1 address 2 0 `uc 1 length 1 2 `*.39uc 1 pbuffer 2 3 ]
+"184 F:\Raspberry Pi\GBA-PI\GBA-SPi.X\mcc_generated_files/i2c.c
+[s S862 . 5 `uc 1 count 1 0 `*.39S858 1 ptrb_list 2 1 `*.39E17875 1 pTrFlag 2 3 ]
+[v _i2c_tr_queue i2c_tr_queue `[1]S862  1 s 5 i2c_tr_queue ]
+"185
+[s S866 . 1 `uc 1 full 1 0 :1:0 
+`uc 1 empty 1 0 :1:1 
+`uc 1 reserved 1 0 :6:2 
+]
+[u S870 . 1 `S866 1 s 1 0 `uc 1 status 1 0 ]
+[s S873 . 7 `*.39S862 1 pTrTail 2 0 `*.39S862 1 pTrHead 2 2 `S870 1 trStatus 1 4 `uc 1 i2cDoneFlag 1 5 `uc 1 i2cErrors 1 6 ]
+[v _i2c_object i2c_object `S873  1 s 7 i2c_object ]
+"186
+[v _i2c_state i2c_state `E17951  1 s 1 i2c_state ]
+"187
+[v _i2c_trb_count i2c_trb_count `uc  1 s 1 i2c_trb_count ]
+"189
+[v _p_i2c_trb_current p_i2c_trb_current `*.39S858  1 s 2 p_i2c_trb_current ]
+"190
+[v _p_i2c_current p_i2c_current `*.39S862  1 s 2 p_i2c_current ]
+"693 F:\Raspberry Pi\GBA-PI\GBA-SPi.X\mcc_generated_files/i2c.h
+[v _status status `E18124  1 e 1 0 ]
+"57 F:\Raspberry Pi\GBA-PI\GBA-SPi.X\mcc_generated_files/tmr1.c
+[v _timer1ReloadVal timer1ReloadVal `VEui  1 e 2 0 ]
+"58
+[v _TMR1_InterruptHandler TMR1_InterruptHandler `*.37(v  1 e 2 0 ]
+"58 F:\Raspberry Pi\GBA-PI\GBA-SPi.X\mcc_generated_files/tmr3.c
+[v _timer3ReloadVal timer3ReloadVal `VEui  1 e 2 0 ]
+"59
+[v _TMR3_InterruptHandler TMR3_InterruptHandler `*.37(v  1 e 2 0 ]
+"46 F:\Raspberry Pi\GBA-PI\GBA-SPi.X\sound_control.h
+[v _ADC_Step ADC_Step `uc  1 e 1 0 ]
+"52
+[v _Linearized_Volume_Array Linearized_Volume_Array `C[256]c  1 e 256 0 ]
+"67 F:\Raspberry Pi\GBA-PI\GBA-SPi.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"228
+} 0
+"85 F:\Raspberry Pi\GBA-PI\GBA-SPi.X\sound_control.c
+[v _Volume_Update Volume_Update `(v  1 e 1 0 ]
+{
+"88
+[v Volume_Update@Abs_diff Abs_diff `uc  1 a 1 18 ]
+"87
+[v Volume_Update@Difference Difference `c  1 a 1 17 ]
+"106
+} 0
+"204
+[v _abval abval `(uc  1 e 1 0 ]
+{
+[v abval@val val `c  1 a 1 wreg ]
+[v abval@val val `c  1 a 1 wreg ]
+"206
+[v abval@val val `c  1 a 1 23 ]
+"207
+} 0
+"110
+[v _Set_Volume Set_Volume `(v  1 e 1 0 ]
+{
+[v Set_Volume@VolumeSetting VolumeSetting `uc  1 a 1 wreg ]
+"115
+[v Set_Volume@Volume Volume `c  1 a 1 16 ]
+"114
+[v Set_Volume@Volume_Index Volume_Index `c  1 a 1 15 ]
+"110
+[v Set_Volume@VolumeSetting VolumeSetting `uc  1 a 1 wreg ]
+"114
+[v Set_Volume@VolumeSetting VolumeSetting `uc  1 a 1 14 ]
+"130
+} 0
+"111 F:\Raspberry Pi\GBA-PI\GBA-SPi.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"130
+} 0
+"65 F:\Raspberry Pi\GBA-PI\GBA-SPi.X\mcc_generated_files/tmr3.c
+[v _TMR3_Initialize TMR3_Initialize `(v  1 e 1 0 ]
+{
+"95
+} 0
+"97
+[v _TMR3_StartTimer TMR3_StartTimer `(v  1 e 1 0 ]
+{
+"101
+} 0
+"178
+[v _TMR3_SetInterruptHandler TMR3_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v TMR3_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 19 ]
+"180
+} 0
+"61 F:\Raspberry Pi\GBA-PI\GBA-SPi.X\mcc_generated_files/tmr2.c
+[v _TMR2_Initialize TMR2_Initialize `(v  1 e 1 0 ]
+{
+"79
+} 0
+"81
+[v _TMR2_StartTimer TMR2_StartTimer `(v  1 e 1 0 ]
+{
+"85
+} 0
+"64 F:\Raspberry Pi\GBA-PI\GBA-SPi.X\mcc_generated_files/tmr1.c
+[v _TMR1_Initialize TMR1_Initialize `(v  1 e 1 0 ]
+{
+"94
+} 0
+"96
+[v _TMR1_StartTimer TMR1_StartTimer `(v  1 e 1 0 ]
+{
+"100
+} 0
+"179
+[v _TMR1_SetInterruptHandler TMR1_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v TMR1_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 19 ]
+"181
+} 0
+"52 F:\Raspberry Pi\GBA-PI\GBA-SPi.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"84
+} 0
+"132 F:\Raspberry Pi\GBA-PI\GBA-SPi.X\mcc_generated_files/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"142
+} 0
+"51 F:\Raspberry Pi\GBA-PI\GBA-SPi.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
+{
+"55
+} 0
+"225 F:\Raspberry Pi\GBA-PI\GBA-SPi.X\mcc_generated_files/ext_int.c
+[v _EXT_INT_Initialize EXT_INT_Initialize `(v  1 e 1 0 ]
+{
+"276
+} 0
+"202
+[v _INT3_SetInterruptHandler INT3_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v INT3_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 19 ]
+"204
+} 0
+"114
+[v _INT2_SetInterruptHandler INT2_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v INT2_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 19 ]
+"116
+} 0
+"73
+[v _INT1_SetInterruptHandler INT1_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v INT1_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 19 ]
+"75
+} 0
+"155
+[v _INT0_SetInterruptHandler INT0_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v INT0_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 19 ]
+"157
+} 0
+"78 F:\Raspberry Pi\GBA-PI\GBA-SPi.X\mcc_generated_files/eusart2.c
+[v _EUSART2_Initialize EUSART2_Initialize `(v  1 e 1 0 ]
+{
+"113
+} 0
+"75 F:\Raspberry Pi\GBA-PI\GBA-SPi.X\mcc_generated_files/eusart1.c
+[v _EUSART1_Initialize EUSART1_Initialize `(v  1 e 1 0 ]
+{
+"110
+} 0
+"63 F:\Raspberry Pi\GBA-PI\GBA-SPi.X\mcc_generated_files/epwm1.c
+[v _EPWM1_Initialize EPWM1_Initialize `(v  1 e 1 0 ]
+{
+"89
+} 0
+"58 F:\Raspberry Pi\GBA-PI\GBA-SPi.X\mcc_generated_files/adc.c
+[v _ADC_Initialize ADC_Initialize `(v  1 e 1 0 ]
+{
+"81
+} 0
+"465 F:\Raspberry Pi\GBA-PI\GBA-SPi.X\main.c
+[v _PWR_SW_Check PWR_SW_Check `(i  1 e 2 0 ]
+{
+"530
+} 0
+"535
+[v _PI_UART_SYNC PI_UART_SYNC `(v  1 e 1 0 ]
+{
+"537
+[v PI_UART_SYNC@data data `[2]uc  1 a 2 25 ]
+"536
+[v PI_UART_SYNC@F18305 F18305 `[2]uc  1 s 2 F18305 ]
+"556
+} 0
+"115 F:\Raspberry Pi\GBA-PI\GBA-SPi.X\mcc_generated_files/eusart2.c
+[v _EUSART2_Read EUSART2_Read `(uc  1 e 1 0 ]
+{
+"117
+[v EUSART2_Read@readValue readValue `uc  1 a 1 19 ]
+"133
+} 0
+"232 F:\Raspberry Pi\GBA-PI\GBA-SPi.X\main.c
+[v _LED_Check LED_Check `(v  1 e 1 0 ]
+{
+"290
+} 0
+"198 F:\Raspberry Pi\GBA-PI\GBA-SPi.X\mcc_generated_files/i2c.c
+[v _I2C_Initialize I2C_Initialize `(v  1 e 1 0 ]
+{
+"220
+} 0
+"439 F:\Raspberry Pi\GBA-PI\GBA-SPi.X\main.c
+[v _Headphone_Check Headphone_Check `(v  1 e 1 0 ]
+{
+"462
+} 0
+"210 F:\Raspberry Pi\GBA-PI\GBA-SPi.X\sound_control.c
+[v _Headphones Headphones `(v  1 e 1 0 ]
+{
+[v Headphones@State State `uc  1 a 1 wreg ]
+[v Headphones@State State `uc  1 a 1 wreg ]
+"213
+[v Headphones@State State `uc  1 a 1 7 ]
+"237
+} 0
+"479 F:\Raspberry Pi\GBA-PI\GBA-SPi.X\Debug.c
+[v _Debug_Mode Debug_Mode `(v  1 e 1 0 ]
+{
+"503
+} 0
+"12
+[v _DebugMenu DebugMenu `(v  1 e 1 0 ]
+{
+"14
+[v DebugMenu@selection selection `uc  1 a 1 73 ]
+"76
+} 0
+"158
+[v _TAS2521_Communication TAS2521_Communication `(v  1 e 1 0 ]
+{
+"160
+[v TAS2521_Communication@i2c_data i2c_data `[2]uc  1 a 2 14 ]
+"218
+} 0
+"12 F:\Raspberry Pi\GBA-PI\GBA-SPi.X\sound_control.c
+[v _TAS2521_Initialize TAS2521_Initialize `(v  1 e 1 0 ]
+{
+"82
+} 0
+"734 F:\Raspberry Pi\GBA-PI\GBA-SPi.X\mcc_generated_files/i2c.c
+[v _I2C_Write I2C_Write `(v  1 e 1 0 ]
+{
+[v I2C_Write@Address Address `uc  1 a 1 wreg ]
+"737
+[v I2C_Write@writeBuffer writeBuffer `[2]uc  1 a 2 31 ]
+"736
+[v I2C_Write@timeOut timeOut `uc  1 a 1 33 ]
+"734
+[v I2C_Write@Address Address `uc  1 a 1 wreg ]
+[v I2C_Write@Register Register `uc  1 p 1 28 ]
+[v I2C_Write@Data Data `uc  1 p 1 29 ]
+"736
+[v I2C_Write@Address Address `uc  1 a 1 30 ]
+"770
+} 0
+"400 F:\Raspberry Pi\GBA-PI\GBA-SPi.X\Debug.c
+[v _Screen_Brightness_Debug Screen_Brightness_Debug `(v  1 e 1 0 ]
+{
+"426
+} 0
+"221
+[v _MAX17048_Communication MAX17048_Communication `(v  1 e 1 0 ]
+{
+"223
+[v MAX17048_Communication@i2c_data i2c_data `[2]uc  1 a 2 14 ]
+"224
+[v MAX17048_Communication@ReadData ReadData `uc  1 a 1 16 ]
+"286
+} 0
+"27 F:\Raspberry Pi\GBA-PI\GBA-SPi.X\battery_control.c
+[v _Read_Battery_Voltage Read_Battery_Voltage `(uc  1 e 1 0 ]
+{
+"29
+[v Read_Battery_Voltage@BatteryVoltage BatteryVoltage `uc  1 a 1 7 ]
+"35
+} 0
+"38
+[v _Read_Battery_Register Read_Battery_Register `(uc  1 e 1 0 ]
+{
+[v Read_Battery_Register@Register Register `uc  1 a 1 wreg ]
+"40
+[v Read_Battery_Register@RegisterData RegisterData `uc  1 a 1 8 ]
+"38
+[v Read_Battery_Register@Register Register `uc  1 a 1 wreg ]
+"40
+[v Read_Battery_Register@Register Register `uc  1 a 1 7 ]
+"46
+} 0
+"716 F:\Raspberry Pi\GBA-PI\GBA-SPi.X\mcc_generated_files/i2c.c
+[v _I2C_MasterQueueIsEmpty I2C_MasterQueueIsEmpty `(uc  1 e 1 0 ]
+{
+"719
+} 0
+"79 F:\Raspberry Pi\GBA-PI\GBA-SPi.X\Debug.c
+[v _LED_Control LED_Control `(v  1 e 1 0 ]
+{
+"81
+[v LED_Control@command_input command_input `[16]uc  1 a 16 51 ]
+"83
+[v LED_Control@second_command second_command `[16]uc  1 a 16 35 ]
+"82
+[v LED_Control@first_command first_command `[16]uc  1 a 16 19 ]
+"85
+[v LED_Control@token token `*.39uc  1 a 2 70 ]
+"84
+[v LED_Control@delim delim `[2]uc  1 a 2 68 ]
+"86
+[v LED_Control@counter counter `uc  1 a 1 72 ]
+[v LED_Control@flush flush `uc  1 a 1 67 ]
+"83
+[v LED_Control@F18486 F18486 `[2]uc  1 s 2 F18486 ]
+"155
+} 0
+"342
+[v _Battery_Display Battery_Display `(v  1 e 1 0 ]
+{
+"391
+[v Battery_Display@data data `[2]uc  1 a 2 14 ]
+"390
+[v Battery_Display@F18498 F18498 `[2]uc  1 s 2 F18498 ]
+"396
+} 0
+"5 F:\Microchip\XC8\sources\common\atoi.c
+[v _atoi atoi `(i  1 e 2 0 ]
+{
+"7
+[v atoi@a a `i  1 a 2 30 ]
+"8
+[v atoi@sign sign `uc  1 a 1 29 ]
+"5
+[v atoi@s s `*.39Cuc  1 p 2 25 ]
+"24
+} 0
+"8 F:\Microchip\XC8\sources\common\isdigit.c
+[v _isdigit isdigit `(b  1 e 0 0 ]
+{
+[v isdigit@c c `uc  1 a 1 wreg ]
+[v isdigit@c c `uc  1 a 1 wreg ]
+"14
+[v isdigit@c c `uc  1 a 1 21 ]
+"15
+} 0
+"15 F:\Microchip\XC8\sources\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 23 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 19 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 21 ]
+"53
+} 0
+"82 F:\Raspberry Pi\GBA-PI\GBA-SPi.X\battery_control.c
+[v _Update_Y_Offset Update_Y_Offset `(v  1 e 1 0 ]
+{
+"84
+[v Update_Y_Offset@data data `[4]uc  1 a 4 0 ]
+"82
+[v Update_Y_Offset@offset offset `ui  1 p 2 32 ]
+"83
+[v Update_Y_Offset@F18455 F18455 `[4]uc  1 s 4 F18455 ]
+"91
+} 0
+"70
+[v _Update_X_Offset Update_X_Offset `(v  1 e 1 0 ]
+{
+"72
+[v Update_X_Offset@data data `[4]uc  1 a 4 0 ]
+"70
+[v Update_X_Offset@offset offset `ui  1 p 2 32 ]
+"71
+[v Update_X_Offset@F18450 F18450 `[4]uc  1 s 4 F18450 ]
+"79
+} 0
+"293 F:\Raspberry Pi\GBA-PI\GBA-SPi.X\Debug.c
+[v _ADC_Debug ADC_Debug `(v  1 e 1 0 ]
+{
+"337
+} 0
+"33 F:\Microchip\XC8\sources\common\strcmp.c
+[v _strcmp strcmp `(i  1 e 2 0 ]
+{
+"35
+[v strcmp@r r `c  1 a 1 24 ]
+"33
+[v strcmp@s1 s1 `*.39Cuc  1 p 2 19 ]
+[v strcmp@s2 s2 `*.25Cuc  1 p 2 21 ]
+"42
+} 0
+"464 F:\Microchip\XC8\sources\common\doprnt.c
+[v _printf printf `(i  1 e 2 0 ]
+{
+"1500
+[v printf@idx idx `uc  1 a 1 4 ]
+"528
+[v printf@val val `ui  1 a 2 11 ]
+"466
+[v printf@ap ap `[1]*.39v  1 a 2 8 ]
+"530
+[v printf@cp cp `*.35Cuc  1 a 2 6 ]
+"499
+[v printf@c c `c  1 a 1 13 ]
+"508
+[v printf@flag flag `uc  1 a 1 10 ]
+"506
+[v printf@prec prec `c  1 a 1 5 ]
+"464
+[v printf@f f `*.25Cuc  1 p 2 0 ]
+"1541
+} 0
+"8 F:\Microchip\XC8\sources\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+{
+"11
+[v ___lwmod@counter counter `uc  1 a 1 30 ]
+"8
+[v ___lwmod@dividend dividend `ui  1 p 2 26 ]
+[v ___lwmod@divisor divisor `ui  1 p 2 28 ]
+"26
+} 0
+"8 F:\Microchip\XC8\sources\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+{
+"11
+[v ___lwdiv@quotient quotient `ui  1 a 2 24 ]
+"12
+[v ___lwdiv@counter counter `uc  1 a 1 23 ]
+"8
+[v ___lwdiv@dividend dividend `ui  1 p 2 19 ]
+[v ___lwdiv@divisor divisor `ui  1 p 2 21 ]
+"31
+} 0
+"438 F:\Raspberry Pi\GBA-PI\GBA-SPi.X\Debug.c
+[v _Read_Commands Read_Commands `(uc  1 e 1 0 ]
+{
+"440
+[v Read_Commands@str str `[128]uc  1 a 128 0 ]
+"441
+[v Read_Commands@delim delim `[4]uc  1 a 4 128 ]
+"442
+[v Read_Commands@token token `*.39uc  1 a 2 133 ]
+"443
+[v Read_Commands@i i `uc  1 a 1 136 ]
+"444
+[v Read_Commands@counter counter `uc  1 a 1 135 ]
+"445
+[v Read_Commands@flush flush `uc  1 a 1 132 ]
+"438
+[v Read_Commands@cmds cmds `*.39[16]uc  1 p 2 31 ]
+"440
+[v Read_Commands@F18504 F18504 `[4]uc  1 s 4 F18504 ]
+"474
+} 0
+"8 F:\Microchip\XC8\sources\common\strtok.c
+[v _strtok strtok `(*.39uc  1 e 2 0 ]
+{
+[v strtok@s1 s1 `*.39uc  1 p 2 0 ]
+[v strtok@s2 s2 `*.39Cuc  1 p 2 2 ]
+"15
+[v strtok@sp sp `*.39uc  1 s 2 sp ]
+"31
+} 0
+"4 F:\Microchip\XC8\sources\common\strspn.c
+[v _strspn strspn `(ui  1 e 2 0 ]
+{
+"6
+[v strspn@i i `ui  1 a 2 29 ]
+"4
+[v strspn@s1 s1 `*.39Cuc  1 p 2 24 ]
+[v strspn@s2 s2 `*.39Cuc  1 p 2 26 ]
+"14
+} 0
+"4 F:\Microchip\XC8\sources\common\strcspn.c
+[v _strcspn strcspn `(ui  1 e 2 0 ]
+{
+"6
+[v strcspn@i i `ui  1 a 2 29 ]
+"4
+[v strcspn@s1 s1 `*.39Cuc  1 p 2 24 ]
+[v strcspn@s2 s2 `*.39Cuc  1 p 2 26 ]
+"14
+} 0
+"4 F:\Microchip\XC8\sources\common\strchr.c
+[v _strchr strchr `(*.39uc  1 e 2 0 ]
+{
+[v strchr@ptr ptr `*.39Cuc  1 p 2 19 ]
+[v strchr@chr chr `i  1 p 2 21 ]
+"11
+} 0
+"8 F:\Microchip\XC8\sources\common\strcpy.c
+[v _strcpy strcpy `(*.39uc  1 e 2 0 ]
+{
+"15
+[v strcpy@cp cp `*.39uc  1 a 2 23 ]
+"8
+[v strcpy@to to `*.39uc  1 p 2 19 ]
+[v strcpy@from from `*.35Cuc  1 p 2 21 ]
+"24
+} 0
+"155 F:\Raspberry Pi\GBA-PI\GBA-SPi.X\mcc_generated_files/eusart1.c
+[v _getch getch `(uc  1 e 1 0 ]
+{
+"157
+[v getch@data data `uc  1 a 1 21 ]
+"161
+} 0
+"163
+[v _putch putch `(v  1 e 1 0 ]
+{
+[v putch@txData txData `uc  1 a 1 wreg ]
+[v putch@txData txData `uc  1 a 1 wreg ]
+"165
+[v putch@txData txData `uc  1 a 1 20 ]
+"166
+} 0
+"132
+[v _EUSART1_Write EUSART1_Write `(v  1 e 1 0 ]
+{
+[v EUSART1_Write@txData txData `uc  1 a 1 wreg ]
+[v EUSART1_Write@txData txData `uc  1 a 1 wreg ]
+[v EUSART1_Write@txData txData `uc  1 a 1 19 ]
+"153
+} 0
+"112
+[v _EUSART1_Read EUSART1_Read `(uc  1 e 1 0 ]
+{
+"114
+[v EUSART1_Read@readValue readValue `uc  1 a 1 19 ]
+"130
+} 0
+"402 F:\Raspberry Pi\GBA-PI\GBA-SPi.X\main.c
+[v _Button_Check Button_Check `(v  1 e 1 0 ]
+{
+"436
+} 0
+"91 F:\Raspberry Pi\GBA-PI\GBA-SPi.X\mcc_generated_files/epwm1.c
+[v _EPWM1_LoadDutyValue EPWM1_LoadDutyValue `(v  1 e 1 0 ]
+{
+[v EPWM1_LoadDutyValue@dutyValue dutyValue `ui  1 p 2 32 ]
+"98
+} 0
+"134 F:\Raspberry Pi\GBA-PI\GBA-SPi.X\sound_control.c
+[v _Build_Volume_Array Build_Volume_Array `(v  1 e 1 0 ]
+{
+"137
+} 0
+"338 F:\Raspberry Pi\GBA-PI\GBA-SPi.X\main.c
+[v _Brightness_SW_Check Brightness_SW_Check `(v  1 e 1 0 ]
+{
+"396
+} 0
+"60 F:\Raspberry Pi\GBA-PI\GBA-SPi.X\battery_control.c
+[v _Update_Battery_Display Update_Battery_Display `(v  1 e 1 0 ]
+{
+[v Update_Battery_Display@display display `uc  1 a 1 wreg ]
+"62
+[v Update_Battery_Display@data data `[3]uc  1 a 3 24 ]
+"60
+[v Update_Battery_Display@display display `uc  1 a 1 wreg ]
+"61
+[v Update_Battery_Display@F18447 F18447 `[3]uc  1 s 3 F18447 ]
+[v Update_Battery_Display@display display `uc  1 a 1 27 ]
+"67
+} 0
+"294 F:\Raspberry Pi\GBA-PI\GBA-SPi.X\main.c
+[v _Battery_Check Battery_Check `(v  1 e 1 0 ]
+{
+"335
+} 0
+"49 F:\Raspberry Pi\GBA-PI\GBA-SPi.X\battery_control.c
+[v _Update_Battery_Icon Update_Battery_Icon `(v  1 e 1 0 ]
+{
+[v Update_Battery_Icon@charge charge `uc  1 a 1 wreg ]
+"51
+[v Update_Battery_Icon@data data `[3]uc  1 a 3 24 ]
+"49
+[v Update_Battery_Icon@charge charge `uc  1 a 1 wreg ]
+"50
+[v Update_Battery_Icon@F18444 F18444 `[3]uc  1 s 3 F18444 ]
+[v Update_Battery_Icon@charge charge `uc  1 a 1 27 ]
+"57
+} 0
+"199 F:\Raspberry Pi\GBA-PI\GBA-SPi.X\mcc_generated_files/eusart2.c
+[v _EUSART2_Write_Array EUSART2_Write_Array `(v  1 e 1 0 ]
+{
+"201
+[v EUSART2_Write_Array@i i `uc  1 a 1 23 ]
+"199
+[v EUSART2_Write_Array@data data `*.39uc  1 p 2 20 ]
+[v EUSART2_Write_Array@length length `uc  1 p 1 22 ]
+"209
+} 0
+"135
+[v _EUSART2_Write EUSART2_Write `(v  1 e 1 0 ]
+{
+[v EUSART2_Write@txData txData `uc  1 a 1 wreg ]
+[v EUSART2_Write@txData txData `uc  1 a 1 wreg ]
+[v EUSART2_Write@txData txData `uc  1 a 1 19 ]
+"156
+} 0
+"16 F:\Raspberry Pi\GBA-PI\GBA-SPi.X\battery_control.c
+[v _Read_Battery_Percent Read_Battery_Percent `(uc  1 e 1 0 ]
+{
+"18
+[v Read_Battery_Percent@BatteryPercent BatteryPercent `uc  1 a 1 7 ]
+"24
+} 0
+"772 F:\Raspberry Pi\GBA-PI\GBA-SPi.X\mcc_generated_files/i2c.c
+[v _I2C_Read I2C_Read `(uc  1 e 1 0 ]
+{
+[v I2C_Read@Address Address `uc  1 a 1 wreg ]
+"775
+[v I2C_Read@timeOut timeOut `ui  1 a 2 31 ]
+"776
+[v I2C_Read@ReadData ReadData `uc  1 a 1 33 ]
+"774
+[v I2C_Read@writeBuffer writeBuffer `[1]uc  1 a 1 30 ]
+"772
+[v I2C_Read@Address Address `uc  1 a 1 wreg ]
+[v I2C_Read@Register Register `uc  1 p 1 28 ]
+"776
+[v I2C_Read@Address Address `uc  1 a 1 29 ]
+"836
+} 0
+"596
+[v _I2C_MasterWrite I2C_MasterWrite `(v  1 e 1 0 ]
+{
+"597
+[v I2C_MasterWrite@pdata pdata `*.39uc  1 p 2 0 ]
+"598
+[v I2C_MasterWrite@length length `uc  1 p 1 2 ]
+"599
+[v I2C_MasterWrite@address address `ui  1 p 2 3 ]
+"600
+[v I2C_MasterWrite@pflag pflag `*.39E17875  1 p 2 5 ]
+[s S858 . 5 `ui 1 address 2 0 `uc 1 length 1 2 `*.39uc 1 pbuffer 2 3 ]
+"602
+[v I2C_MasterWrite@trBlock trBlock `S858  1 s 5 trBlock ]
+"615
+} 0
+"705
+[v _I2C_MasterWriteTRBBuild I2C_MasterWriteTRBBuild `(v  1 e 1 0 ]
+{
+[s S858 . 5 `ui 1 address 2 0 `uc 1 length 1 2 `*.39uc 1 pbuffer 2 3 ]
+"706
+[v I2C_MasterWriteTRBBuild@ptrb ptrb `*.39S858  1 p 2 19 ]
+"707
+[v I2C_MasterWriteTRBBuild@pdata pdata `*.39uc  1 p 2 21 ]
+"708
+[v I2C_MasterWriteTRBBuild@length length `uc  1 p 1 23 ]
+"709
+[v I2C_MasterWriteTRBBuild@address address `ui  1 p 2 24 ]
+"714
+} 0
+"617
+[v _I2C_MasterRead I2C_MasterRead `(v  1 e 1 0 ]
+{
+"618
+[v I2C_MasterRead@pdata pdata `*.39uc  1 p 2 0 ]
+"619
+[v I2C_MasterRead@length length `uc  1 p 1 2 ]
+"620
+[v I2C_MasterRead@address address `ui  1 p 2 3 ]
+"621
+[v I2C_MasterRead@pflag pflag `*.39E17875  1 p 2 5 ]
+[s S858 . 5 `ui 1 address 2 0 `uc 1 length 1 2 `*.39uc 1 pbuffer 2 3 ]
+"623
+[v I2C_MasterRead@trBlock trBlock `S858  1 s 5 trBlock ]
+"637
+} 0
+"639
+[v _I2C_MasterTRBInsert I2C_MasterTRBInsert `(v  1 e 1 0 ]
+{
+"640
+[v I2C_MasterTRBInsert@count count `uc  1 a 1 wreg ]
+[v I2C_MasterTRBInsert@count count `uc  1 a 1 wreg ]
+[s S858 . 5 `ui 1 address 2 0 `uc 1 length 1 2 `*.39uc 1 pbuffer 2 3 ]
+"641
+[v I2C_MasterTRBInsert@ptrb_list ptrb_list `*.39S858  1 p 2 19 ]
+"642
+[v I2C_MasterTRBInsert@pflag pflag `*.39E17875  1 p 2 21 ]
+"646
+[v I2C_MasterTRBInsert@count count `uc  1 a 1 24 ]
+"690
+} 0
+"692
+[v _I2C_MasterReadTRBBuild I2C_MasterReadTRBBuild `(v  1 e 1 0 ]
+{
+[s S858 . 5 `ui 1 address 2 0 `uc 1 length 1 2 `*.39uc 1 pbuffer 2 3 ]
+"693
+[v I2C_MasterReadTRBBuild@ptrb ptrb `*.39S858  1 p 2 19 ]
+"694
+[v I2C_MasterReadTRBBuild@pdata pdata `*.39uc  1 p 2 21 ]
+"695
+[v I2C_MasterReadTRBBuild@length length `uc  1 p 1 23 ]
+"696
+[v I2C_MasterReadTRBBuild@address address `ui  1 p 2 24 ]
+"703
+} 0
+"83 F:\Raspberry Pi\GBA-PI\GBA-SPi.X\mcc_generated_files/adc.c
+[v _ADC_StartConversion ADC_StartConversion `(v  1 e 1 0 ]
+{
+[v ADC_StartConversion@channel channel `E17874  1 a 1 wreg ]
+[v ADC_StartConversion@channel channel `E17874  1 a 1 wreg ]
+"86
+[v ADC_StartConversion@channel channel `E17874  1 a 1 20 ]
+"94
+} 0
+"57 F:\Raspberry Pi\GBA-PI\GBA-SPi.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
+{
+"104
+} 0
+"162 F:\Raspberry Pi\GBA-PI\GBA-SPi.X\mcc_generated_files/tmr3.c
+[v _TMR3_ISR TMR3_ISR `(v  1 e 1 0 ]
+{
+"175
+} 0
+"183
+[v _TMR3_DefaultInterruptHandler TMR3_DefaultInterruptHandler `(v  1 e 1 0 ]
+{
+"194
+} 0
+"163 F:\Raspberry Pi\GBA-PI\GBA-SPi.X\mcc_generated_files/tmr1.c
+[v _TMR1_ISR TMR1_ISR `(v  1 e 1 0 ]
+{
+"176
+} 0
+"185
+[v _TMR1_DefaultInterruptHandler TMR1_DefaultInterruptHandler `(v  1 e 1 0 ]
+{
+"200
+} 0
+"169 F:\Raspberry Pi\GBA-PI\GBA-SPi.X\mcc_generated_files/ext_int.c
+[v _INT3_ISR INT3_ISR `(v  1 e 1 0 ]
+{
+"185
+} 0
+"465 F:\Raspberry Pi\GBA-PI\GBA-SPi.X\main.c
+[v i2_PWR_SW_Check PWR_SW_Check `(i  1 e 2 0 ]
+{
+"530
+} 0
+"190 F:\Raspberry Pi\GBA-PI\GBA-SPi.X\mcc_generated_files/ext_int.c
+[v _INT3_CallBack INT3_CallBack `(v  1 e 1 0 ]
+{
+"197
+} 0
+"209
+[v _INT3_DefaultInterruptHandler INT3_DefaultInterruptHandler `(v  1 e 1 0 ]
+{
+"212
+} 0
+"231 F:\Raspberry Pi\GBA-PI\GBA-SPi.X\mcc_generated_files/i2c.c
+[v _I2C_ISR I2C_ISR `(v  1 e 1 0 ]
+{
+"234
+[v I2C_ISR@pi2c_buf_ptr pi2c_buf_ptr `*.39uc  1 s 2 pi2c_buf_ptr ]
+"235
+[v I2C_ISR@i2c_address i2c_address `ui  1 s 2 i2c_address ]
+"236
+[v I2C_ISR@i2c_bytes_left i2c_bytes_left `uc  1 s 1 i2c_bytes_left ]
+"237
+[v I2C_ISR@i2c_10bit_address_restart i2c_10bit_address_restart `uc  1 s 1 i2c_10bit_address_restart ]
+"559
+} 0
+"579
+[v _I2C_Stop I2C_Stop `(v  1 e 1 0 ]
+{
+[v I2C_Stop@completion_code completion_code `E17875  1 a 1 wreg ]
+[v I2C_Stop@completion_code completion_code `E17875  1 a 1 wreg ]
+"582
+[v I2C_Stop@completion_code completion_code `E17875  1 a 1 2 ]
+"594
+} 0
+"561
+[v _I2C_FunctionComplete I2C_FunctionComplete `(v  1 e 1 0 ]
+{
+"577
+} 0
+"726
+[v _I2C_BusCollisionISR I2C_BusCollisionISR `(v  1 e 1 0 ]
+{
+"729
+} 0
+"158 F:\Raspberry Pi\GBA-PI\GBA-SPi.X\mcc_generated_files/eusart2.c
+[v _EUSART2_Transmit_ISR EUSART2_Transmit_ISR `(v  1 e 1 0 ]
+{
+"175
+} 0
+"177
+[v _EUSART2_Receive_ISR EUSART2_Receive_ISR `(v  1 e 1 0 ]
+{
+"195
+} 0
+"168 F:\Raspberry Pi\GBA-PI\GBA-SPi.X\mcc_generated_files/eusart1.c
+[v _EUSART1_Transmit_ISR EUSART1_Transmit_ISR `(v  1 e 1 0 ]
+{
+"185
+} 0
+"187
+[v _EUSART1_Receive_ISR EUSART1_Receive_ISR `(v  1 e 1 0 ]
+{
+"205
+} 0
+"137 F:\Raspberry Pi\GBA-PI\GBA-SPi.X\mcc_generated_files/adc.c
+[v _ADC_ISR ADC_ISR `(v  1 e 1 0 ]
+{
+"148
+} 0
+"108
+[v _ADC_GetConversionResult_8bit ADC_GetConversionResult_8bit `(ui  1 e 2 0 ]
+{
+"112
+} 0

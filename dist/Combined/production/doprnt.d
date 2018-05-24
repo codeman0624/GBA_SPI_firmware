@@ -1,0 +1,1 @@
+ dist/Combined/production/doprnt.d  dist/Combined/production/doprnt.p1:  F:/Microchip/XC8/sources/common/doprnt.c
