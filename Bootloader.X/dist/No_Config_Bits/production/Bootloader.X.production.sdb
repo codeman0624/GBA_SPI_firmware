@@ -1,0 +1,522 @@
+[p LITE_MODE AUTOSTATIC LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F25K80 ]
+[d frameptr 4065 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"54 C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+"20 C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 3 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 3 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 3 0 ]
+"11 C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 3 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 3 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"51 F:\Raspberry Pi\GBA-PI\Bootloader.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"55 F:\Raspberry Pi\GBA-PI\Bootloader.X\mcc_generated_files/eusart1.c
+[v _EUSART1_Initialize EUSART1_Initialize `(v  1 e 1 0 ]
+"77
+[v _EUSART1_Read EUSART1_Read `(uc  1 e 1 0 ]
+"96
+[v _EUSART1_Write EUSART1_Write `(v  1 e 1 0 ]
+"117 F:\Raspberry Pi\GBA-PI\Bootloader.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"126
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"58 F:\Raspberry Pi\GBA-PI\Bootloader.X\mcc_generated_files/memory.c
+[v _FLASH_ReadByte FLASH_ReadByte `(uc  1 e 1 0 ]
+"93
+[v _FLASH_WriteBlock FLASH_WriteBlock `(c  1 e 1 0 ]
+"142
+[v _FLASH_EraseBlock FLASH_EraseBlock `(v  1 e 1 0 ]
+"128 F:\Raspberry Pi\GBA-PI\Bootloader.X\mcc_generated_files/pic18f_bootload.c
+[v _service_isr_high service_isr_high `IIH(v  1 e 1 0 ]
+"134
+[v _service_isr_low service_isr_low `IIL(v  1 e 1 0 ]
+"141
+[v _BOOTLOADER_Initialize BOOTLOADER_Initialize `(v  1 e 1 0 ]
+"155
+[v _Bootload_Required Bootload_Required `(uc  1 e 1 0 ]
+"188
+[v _ProcessBootBuffer ProcessBootBuffer `(uc  1 e 1 0 ]
+"242
+[v _Get_Version_Data Get_Version_Data `(uc  1 e 1 0 ]
+"283
+[v _Read_Flash Read_Flash `(uc  1 e 1 0 ]
+"305
+[v _Write_Flash Write_Flash `(uc  1 e 1 0 ]
+"341
+[v _Erase_Flash Erase_Flash `(uc  1 e 1 0 ]
+"371
+[v _Read_EE_Data Read_EE_Data `(uc  1 e 1 0 ]
+"391
+[v _Write_EE_Data Write_EE_Data `(uc  1 e 1 0 ]
+"417
+[v _Read_Config Read_Config `(uc  1 e 1 0 ]
+"437
+[v _Write_Config Write_Config `(uc  1 e 1 0 ]
+"467
+[v _Calc_Checksum Calc_Checksum `(uc  1 e 1 0 ]
+"490
+[v _StartWrite StartWrite `(v  1 e 1 0 ]
+"503
+[v _Check_Device_Reset Check_Device_Reset `(v  1 e 1 0 ]
+"62 F:\Raspberry Pi\GBA-PI\Bootloader.X\mcc_generated_files/pic18f_uart.c
+[v _Run_Bootloader Run_Bootloader `(v  1 e 1 0 ]
+"52 F:\Raspberry Pi\GBA-PI\Bootloader.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"26858 C:\Program Files (x86)\Microchip\xc8\v1.42\include\pic18f25k80.h
+[v _WPUB WPUB `VEuc  1 e 1 @3931 ]
+"26920
+[v _ANCON1 ANCON1 `VEuc  1 e 1 @3932 ]
+"26972
+[v _ANCON0 ANCON0 `VEuc  1 e 1 @3933 ]
+"29335
+[v _EEDATA EEDATA `VEuc  1 e 1 @3955 ]
+"29355
+[v _EEADR EEADR `VEuc  1 e 1 @3956 ]
+"29375
+[v _EEADRH EEADRH `VEuc  1 e 1 @3957 ]
+"29751
+[v _SPBRGH1 SPBRGH1 `VEuc  1 e 1 @3965 ]
+"29771
+[v _EECON2 EECON2 `VEuc  1 e 1 @3966 ]
+"29791
+[v _EECON1 EECON1 `VEuc  1 e 1 @3967 ]
+[s S220 . 1 `uc 1 RD 1 0 :1:0 
+`uc 1 WR 1 0 :1:1 
+`uc 1 WREN 1 0 :1:2 
+`uc 1 WRERR 1 0 :1:3 
+`uc 1 FREE 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 CFGS 1 0 :1:6 
+`uc 1 EEPGD 1 0 :1:7 
+]
+"29812
+[s S229 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 EEFS 1 0 :1:6 
+]
+[u S232 . 1 `S220 1 . 1 0 `S229 1 . 1 0 ]
+[v _EECON1bits EECON1bits `VES232  1 e 1 @3967 ]
+[s S412 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"29957
+[s S421 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 CCP2_PA2 1 0 :1:3 
+]
+[u S424 . 1 `S412 1 . 1 0 `S421 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES424  1 e 1 @3969 ]
+"30223
+[v _LATA LATA `VEuc  1 e 1 @3977 ]
+"30325
+[v _LATB LATB `VEuc  1 e 1 @3978 ]
+"30437
+[v _LATC LATC `VEuc  1 e 1 @3979 ]
+[s S362 . 1 `uc 1 LATC0 1 0 :1:0 
+`uc 1 LATC1 1 0 :1:1 
+`uc 1 LATC2 1 0 :1:2 
+`uc 1 LATC3 1 0 :1:3 
+`uc 1 LATC4 1 0 :1:4 
+`uc 1 LATC5 1 0 :1:5 
+`uc 1 LATC6 1 0 :1:6 
+`uc 1 LATC7 1 0 :1:7 
+]
+"30464
+[s S371 . 1 `uc 1 LC0 1 0 :1:0 
+`uc 1 LC1 1 0 :1:1 
+`uc 1 LC2 1 0 :1:2 
+`uc 1 LC3 1 0 :1:3 
+`uc 1 LC4 1 0 :1:4 
+`uc 1 LC5 1 0 :1:5 
+`uc 1 LC6 1 0 :1:6 
+`uc 1 LC7 1 0 :1:7 
+]
+[u S380 . 1 `S362 1 . 1 0 `S371 1 . 1 0 ]
+[v _LATCbits LATCbits `VES380  1 e 1 @3979 ]
+"30643
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+"30700
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+"30762
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+"30868
+[v _REFOCON REFOCON `VEuc  1 e 1 @3994 ]
+"30933
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @3995 ]
+[s S26 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 TMR1GIF 1 0 :1:2 
+`uc 1 SSPIF 1 0 :1:3 
+`uc 1 TX1IF 1 0 :1:4 
+`uc 1 RC1IF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+]
+"31161
+[s S34 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+]
+[u S38 . 1 `S26 1 . 1 0 `S34 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES38  1 e 1 @3998 ]
+"31790
+[v _BAUDCON1 BAUDCON1 `VEuc  1 e 1 @4007 ]
+[s S665 . 1 `uc 1 ABDEN 1 0 :1:0 
+`uc 1 WUE 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 BRG16 1 0 :1:3 
+`uc 1 TXCKP 1 0 :1:4 
+`uc 1 RXDTP 1 0 :1:5 
+`uc 1 RCIDL 1 0 :1:6 
+`uc 1 ABDOVF 1 0 :1:7 
+]
+"31836
+[s S674 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RCMT 1 0 :1:6 
+]
+[s S677 . 1 `uc 1 ABDEN1 1 0 :1:0 
+`uc 1 WUE1 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 BRG161 1 0 :1:3 
+`uc 1 CKTXP 1 0 :1:4 
+`uc 1 DTRXP 1 0 :1:5 
+`uc 1 RCIDL1 1 0 :1:6 
+`uc 1 ABDOVF1 1 0 :1:7 
+]
+[s S686 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 SCKP 1 0 :1:4 
+`uc 1 DTRXP1 1 0 :1:5 
+`uc 1 RCMT1 1 0 :1:6 
+]
+[s S691 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 SCKP1 1 0 :1:4 
+`uc 1 RXDTP1 1 0 :1:5 
+]
+[s S695 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TXCKP1 1 0 :1:4 
+]
+[u S698 . 1 `S665 1 . 1 0 `S674 1 . 1 0 `S677 1 . 1 0 `S686 1 . 1 0 `S691 1 . 1 0 `S695 1 . 1 0 ]
+[v _BAUDCON1bits BAUDCON1bits `VES698  1 e 1 @4007 ]
+"32140
+[v _RCSTA1 RCSTA1 `VEuc  1 e 1 @4011 ]
+[s S54 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADDEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+"32195
+[s S63 . 1 `uc 1 RCD8 1 0 :1:0 
+`uc 1 . 1 0 :2:1 
+`uc 1 ADEN 1 0 :1:3 
+`uc 1 . 1 0 :2:4 
+`uc 1 RC9 1 0 :1:6 
+]
+[s S69 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 NOT_RC8 1 0 :1:6 
+]
+[s S72 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 nRC8 1 0 :1:6 
+]
+[s S75 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RC8_9 1 0 :1:6 
+]
+[s S78 . 1 `uc 1 RX9D1 1 0 :1:0 
+`uc 1 OERR1 1 0 :1:1 
+`uc 1 FERR1 1 0 :1:2 
+`uc 1 ADDEN1 1 0 :1:3 
+`uc 1 CREN1 1 0 :1:4 
+`uc 1 SREN1 1 0 :1:5 
+`uc 1 RX91 1 0 :1:6 
+`uc 1 SPEN1 1 0 :1:7 
+]
+[s S87 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 SRENA 1 0 :1:5 
+]
+[u S90 . 1 `S54 1 . 1 0 `S63 1 . 1 0 `S69 1 . 1 0 `S72 1 . 1 0 `S75 1 . 1 0 `S78 1 . 1 0 `S87 1 . 1 0 ]
+[v _RCSTA1bits RCSTA1bits `VES90  1 e 1 @4011 ]
+"32478
+[v _TXSTA1 TXSTA1 `VEuc  1 e 1 @4012 ]
+[s S601 . 1 `uc 1 TX9D 1 0 :1:0 
+`uc 1 TRMT 1 0 :1:1 
+`uc 1 BRGH 1 0 :1:2 
+`uc 1 SENDB 1 0 :1:3 
+`uc 1 SYNC 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 TX9 1 0 :1:6 
+`uc 1 CSRC 1 0 :1:7 
+]
+"32523
+[s S610 . 1 `uc 1 TXD8 1 0 :1:0 
+`uc 1 . 1 0 :5:1 
+`uc 1 TX8_9 1 0 :1:6 
+]
+[s S614 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 NOT_TX8 1 0 :1:6 
+]
+[s S617 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 nTX8 1 0 :1:6 
+]
+[s S620 . 1 `uc 1 TX9D1 1 0 :1:0 
+`uc 1 TRMT1 1 0 :1:1 
+`uc 1 BRGH1 1 0 :1:2 
+`uc 1 SENDB1 1 0 :1:3 
+`uc 1 SYNC1 1 0 :1:4 
+`uc 1 TXEN1 1 0 :1:5 
+`uc 1 TX91 1 0 :1:6 
+`uc 1 CSRC1 1 0 :1:7 
+]
+[u S629 . 1 `S601 1 . 1 0 `S610 1 . 1 0 `S614 1 . 1 0 `S617 1 . 1 0 `S620 1 . 1 0 ]
+[v _TXSTA1bits TXSTA1bits `VES629  1 e 1 @4012 ]
+"32766
+[v _TXREG1 TXREG1 `VEuc  1 e 1 @4013 ]
+"32804
+[v _RCREG1 RCREG1 `VEuc  1 e 1 @4014 ]
+"32809
+[v _RCREG RCREG `VEuc  1 e 1 @4014 ]
+"32842
+[v _SPBRG1 SPBRG1 `VEuc  1 e 1 @4015 ]
+[s S256 . 1 `uc 1 CCP3IF 1 0 :1:0 
+`uc 1 CCP4IF 1 0 :1:1 
+`uc 1 CCP5IF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 CMP1IF 1 0 :1:4 
+`uc 1 CMP2IF 1 0 :1:5 
+`uc 1 EEIF 1 0 :1:6 
+`uc 1 TMR4IF 1 0 :1:7 
+]
+"33383
+[u S265 . 1 `S256 1 . 1 0 ]
+"33383
+"33383
+[v _PIR4bits PIR4bits `VES265  1 e 1 @4023 ]
+"35619
+[v _OSCCON2 OSCCON2 `VEuc  1 e 1 @4050 ]
+"35691
+[v _OSCCON OSCCON `VEuc  1 e 1 @4051 ]
+[s S166 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE_GIEL 1 0 :1:6 
+`uc 1 GIE_GIEH 1 0 :1:7 
+]
+"36679
+[s S175 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 INT0F 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INT0E 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"36679
+[s S184 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+"36679
+[u S188 . 1 `S166 1 . 1 0 `S175 1 . 1 0 `S184 1 . 1 0 ]
+"36679
+"36679
+[v _INTCONbits INTCONbits `VES188  1 e 1 @4082 ]
+"36921
+[v _TABLAT TABLAT `VEuc  1 e 1 @4085 ]
+"36942
+"36942
+[v _TBLPTR TBLPTR `VEum  1 e 3 @4086 ]
+"36950
+[v _TBLPTRL TBLPTRL `VEuc  1 e 1 @4086 ]
+"36970
+[v _TBLPTRH TBLPTRH `VEuc  1 e 1 @4087 ]
+"36990
+[v _TBLPTRU TBLPTRU `VEuc  1 e 1 @4088 ]
+"37086
+[v _STKPTR STKPTR `VEuc  1 e 1 @4092 ]
+"106 F:\Raspberry Pi\GBA-PI\Bootloader.X\mcc_generated_files/pic18f_bootload.c
+[v _check_sum check_sum `ui  1 e 2 0 ]
+"111
+[v _reset_pending reset_pending `uc  1 e 1 0 ]
+"113
+[v _EE_Key_1 EE_Key_1 `uc  1 e 1 @0 ]
+"114
+[v _EE_Key_2 EE_Key_2 `uc  1 e 1 @1 ]
+[s S349 . 73 `uc 1 command 1 0 `ui 1 data_length 2 1 `uc 1 EE_key_1 1 3 `uc 1 EE_key_2 1 4 `uc 1 address_L 1 5 `uc 1 address_H 1 6 `uc 1 address_U 1 7 `uc 1 address_unused 1 8 `[64]uc 1 data 64 9 ]
+"47 F:\Raspberry Pi\GBA-PI\Bootloader.X\mcc_generated_files/pic18f_uart.c
+[u S359 . 73 `S349 1 . 73 0 `[73]uc 1 buffer 73 0 ]
+[v _frame frame `S359  1 e 73 0 ]
+"51 F:\Raspberry Pi\GBA-PI\Bootloader.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"88
+} 0
+"117 F:\Raspberry Pi\GBA-PI\Bootloader.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"124
+} 0
+"52 F:\Raspberry Pi\GBA-PI\Bootloader.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"84
+} 0
+"126 F:\Raspberry Pi\GBA-PI\Bootloader.X\mcc_generated_files/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"136
+} 0
+"55 F:\Raspberry Pi\GBA-PI\Bootloader.X\mcc_generated_files/eusart1.c
+[v _EUSART1_Initialize EUSART1_Initialize `(v  1 e 1 0 ]
+{
+"74
+} 0
+"141 F:\Raspberry Pi\GBA-PI\Bootloader.X\mcc_generated_files/pic18f_bootload.c
+[v _BOOTLOADER_Initialize BOOTLOADER_Initialize `(v  1 e 1 0 ]
+{
+"152
+} 0
+"62 F:\Raspberry Pi\GBA-PI\Bootloader.X\mcc_generated_files/pic18f_uart.c
+[v _Run_Bootloader Run_Bootloader `(v  1 e 1 0 ]
+{
+"95
+[v Run_Bootloader@ch ch `uc  1 a 1 39 ]
+"64
+[v Run_Bootloader@index index `VEuc  1 a 1 41 ]
+"65
+[v Run_Bootloader@msg_length msg_length `uc  1 a 1 40 ]
+"124
+} 0
+"188 F:\Raspberry Pi\GBA-PI\Bootloader.X\mcc_generated_files/pic18f_bootload.c
+[v _ProcessBootBuffer ProcessBootBuffer `(uc  1 e 1 0 ]
+{
+"190
+[v ProcessBootBuffer@len len `uc  1 a 1 38 ]
+"233
+} 0
+"305
+[v _Write_Flash Write_Flash `(uc  1 e 1 0 ]
+{
+"311
+[v Write_Flash@i i `uc  1 a 1 37 ]
+"332
+} 0
+"391
+[v _Write_EE_Data Write_EE_Data `(uc  1 e 1 0 ]
+{
+"396
+[v Write_EE_Data@i i `uc  1 a 1 33 ]
+"409
+} 0
+"437
+[v _Write_Config Write_Config `(uc  1 e 1 0 ]
+{
+"446
+[v Write_Config@i i `uc  1 a 1 33 ]
+"457
+} 0
+"283
+[v _Read_Flash Read_Flash `(uc  1 e 1 0 ]
+{
+"289
+[v Read_Flash@i i `uc  1 a 1 33 ]
+"296
+} 0
+"371
+[v _Read_EE_Data Read_EE_Data `(uc  1 e 1 0 ]
+{
+"376
+[v Read_EE_Data@i i `uc  1 a 1 33 ]
+"383
+} 0
+"417
+[v _Read_Config Read_Config `(uc  1 e 1 0 ]
+{
+"423
+[v Read_Config@i i `uc  1 a 1 33 ]
+"429
+} 0
+"242
+[v _Get_Version_Data Get_Version_Data `(uc  1 e 1 0 ]
+{
+"268
+[v Get_Version_Data@i i `uc  1 a 1 31 ]
+"275
+} 0
+"341
+[v _Erase_Flash Erase_Flash `(uc  1 e 1 0 ]
+{
+"346
+[v Erase_Flash@i i `ui  1 a 2 31 ]
+"361
+} 0
+"490
+[v _StartWrite StartWrite `(v  1 e 1 0 ]
+{
+"496
+} 0
+"467
+[v _Calc_Checksum Calc_Checksum `(uc  1 e 1 0 ]
+{
+"474
+[v Calc_Checksum@i i `ui  1 a 2 31 ]
+"484
+} 0
+"96 F:\Raspberry Pi\GBA-PI\Bootloader.X\mcc_generated_files/eusart1.c
+[v _EUSART1_Write EUSART1_Write `(v  1 e 1 0 ]
+{
+[v EUSART1_Write@txData txData `uc  1 a 1 wreg ]
+[v EUSART1_Write@txData txData `uc  1 a 1 wreg ]
+[v EUSART1_Write@txData txData `uc  1 a 1 31 ]
+"103
+} 0
+"77
+[v _EUSART1_Read EUSART1_Read `(uc  1 e 1 0 ]
+{
+"94
+} 0
+"503 F:\Raspberry Pi\GBA-PI\Bootloader.X\mcc_generated_files/pic18f_bootload.c
+[v _Check_Device_Reset Check_Device_Reset `(v  1 e 1 0 ]
+{
+"511
+} 0
+"155
+[v _Bootload_Required Bootload_Required `(uc  1 e 1 0 ]
+{
+"162
+[v Bootload_Required@i i `uc  1 a 1 31 ]
+"185
+} 0
+"134
+[v _service_isr_low service_isr_low `IIL(v  1 e 1 0 ]
+{
+"138
+} 0
+"128
+[v _service_isr_high service_isr_high `IIH(v  1 e 1 0 ]
+{
+"132
+} 0
